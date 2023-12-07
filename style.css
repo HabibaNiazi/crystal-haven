@@ -1,0 +1,175 @@
+.changecontent::after{
+    content: ' ';
+    color:skyblue;
+    text-shadow: 0px 1px 1px black;
+    animation: changetext 17s infinite linear;
+}
+@keyframes changetext {
+    0% { content: "Up to 10% Off on All Crystals"; }
+    10% { content: "Huge Discounts on Jewelry Collections"; }
+    20% { content: "Limited Time Offer: 15% Off Sitewide"; }
+    30% { content: "Special Discount for New Customers"; }
+    40% { content: "Clearance Sale: Save Big on Select Items"; }
+    50% { content: "Get a Free Crystal with Every Purchase"; }
+    60% { content: "Exclusive Deals on Rare Gemstones"; }
+    70% { content: "Weekly Flash Sales - Don't Miss Out"; }
+    80% { content: "Discounted Shipping on Orders Over $50"; }
+    90% { content: "Crystal Haven Loyalty Program: Earn Rewards"; }
+    100% { content: "Limited Time Offer: 20% Off Your Next Purchase"; }
+}
+
+		body{
+            background-color: #D7CAC1;
+			padding: 0;
+			margin: 0;
+        }
+		
+        
+		main .text{
+			padding: 10px;
+			text-align: center;
+			/*font-size: 30px;*/
+			color: #554;
+		}
+		
+		
+		
+		
+		
+		#section {
+			width: 98%;
+			height: 550px;
+			
+			margin: auto;
+			display: flex;
+			align-items: center;
+			overflow-x: auto;
+		}
+		section::-webkit-scrollbar{
+			display: none;
+		}
+		section .product{
+			min-width: 24%;
+			height: 80%;
+            
+			background: whitesmoke;
+			margin:  0 20px  0 0;
+			border-radius: 20px;
+			position: relative;
+			left: 0;
+			transition: 0.5s;
+
+		}
+		
+		picture{
+			
+			
+			display: flex;
+			overflow: hidden;
+			margin-bottom: 20px;
+		}
+		picture img{
+			width: 100%;
+            
+		}
+		.detail,
+		.button{
+			width: 90%;
+			/*background: red;*/
+			margin: auto;
+			padding: 5px;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			height: 50px;
+			font-size: 20px;
+			color: #444;
+		}
+		small{color: #555;}
+		 main a{
+			text-decoration: none;
+			padding: 6px 14px;
+		    font-size: 15px;
+		   
+		    display: inline-block;
+		    background: #6773ff;
+		    color: white;
+		}
+		.cart{
+			text-decoration: none;
+			padding: 6px 14px;
+		    font-size: 15px;
+		   
+		    display: inline-block;
+		    background: #6773ff;
+		    color: white;
+		}
+		p.star{
+			margin: 5px auto;
+		    width: 65%;
+		    font-size: 25px;
+		    color: #808080;
+		}
+		@media (max-width: 768px) {
+			.text h1{
+				font-size: 35px;
+			}
+			.text p{
+				width: 90%;
+			}
+			header h1{
+				font-size: 25px;
+			}
+			header p span{
+				font-size: 30px;
+			}
+			section .product {
+				min-width: 100%;
+				margin:  0 10px  0 0;
+                padding-bottom: 10px;
+                
+            }
+			.detail, .button{
+				font-size: 16px;
+                			}
+			main a{
+				padding:0 ;
+                margin: 0;
+                padding: 0;
+                text-align: justify;
+		}
+       div.product{
+        padding-bottom: 500px;
+       }
+       
+        #pic{
+            width: 45vw;
+            margin-left: 10px;
+        }
+		#small {
+			width: 98%;
+			height: 550px;
+			
+			margin: auto;
+			display: flex;
+			align-items: center;
+			overflow-x: auto;
+		}
+		#small::-webkit-scrollbar{
+			display: none;
+		}
+		#small #smaller{
+			min-width: 24%;
+			height: 80%;
+            
+			background: whitesmoke;
+			margin:  0 20px  0 0;
+			border-radius: 20px;
+			position: relative;
+			left: 0;
+			transition: 0.5s;
+
+		}
+		
+    }
+	

@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product-Crystal haven</title>
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+   <!-- bootstrap css file  -->
+   <link rel="stylesheet" href="/bootstrap.min.css">
+   	<!-- css -->
+	<link rel="stylesheet" href="file.css">
+   <!-- bootstrap js file  -->
+   <script src="/bootstrap.bundle.min.js"></script>
+   <!-- js -->
+   <script src="feature.js"></script>
+   <!-- css file  -->
+   <link rel="stylesheet" href="stylesheet.css">
+ <!-- j.query file  -->
+   <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+</head>
+<body>
+<!-- Modal -->
+<div class="modal fade" id="exampleModalbuy" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">CRYSTAL HAVEN</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        You Successfully add to cart
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- modal end  -->
+
+
+<!-- Modal -->
+<div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content bg-primary">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Card details</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <section class="h-100 h-custom">
+          <div class="card bg-primary text-white rounded-3">
+            <div class="card-body">
+              <div class="d-flex justify-content-between align-items-center mb-4">
+              </div>
+
+              <p class="small mb-2">Card type</p>
+              <a href="#!" type="submit" class="text-white"><i
+                  class="fab fa-cc-mastercard fa-2x me-2"></i></a>
+              <a href="#!" type="submit" class="text-white"><i
+                  class="fab fa-cc-visa fa-2x me-2"></i></a>
+              <a href="#!" type="submit" class="text-white"><i
+                  class="fab fa-cc-amex fa-2x me-2"></i></a>
+              <a href="#!" type="submit" class="text-white"><i class="fab fa-cc-paypal fa-2x"></i></a>
+
+              <form class="mt-4">
+                <div class="form-outline form-white mb-4">
+                  <input type="text" id="typeName" class="form-control form-control-lg" siez="17"
+                    placeholder="Cardholder's Name" />
+                  <label class="form-label" for="typeName">Cardholder's Name</label>
+                </div>
+
+                <div class="form-outline form-white mb-4">
+                  <input type="text" id="typeText" class="form-control form-control-lg" siez="17"
+                    placeholder="1234 5678 9012 3457" minlength="19" maxlength="19" />
+                  <label class="form-label" for="typeText">Card Number</label>
+                </div>
+
+                <div class="row mb-4">
+                  <div class="col-md-6">
+                    <div class="form-outline form-white">
+                      <input type="text" id="typeExp" class="form-control form-control-lg"
+                        placeholder="MM/YYYY" size="7" id="exp" minlength="7" maxlength="7" />
+                      <label class="form-label" for="typeExp">Expiration</label>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-outline form-white">
+                      <input type="password" id="typeText" class="form-control form-control-lg"
+                        placeholder="&#9679;&#9679;&#9679;" size="1" minlength="3" maxlength="3" />
+                      <label class="form-label" for="typeText">Cvv</label>
+                    </div>
+                  </div>
+                </div>
+
+              </form>
+
+              <hr class="my-4">
+
+              <div class="d-flex justify-content-between">
+                <p class="mb-2">Subtotal</p>
+                <p class="mb-2">$4798.00</p>
+              </div>
+
+              <div class="d-flex justify-content-between">
+                <p class="mb-2">Shipping</p>
+                <p class="mb-2">$20.00</p>
+              </div>
+
+              <div class="d-flex justify-content-between mb-4">
+                <p class="mb-2">Total(Incl. taxes)</p>
+                <p class="mb-2">$4818.00</p>
+              </div>
+
+              <button type="button" class="btn btn-info btn-block btn-lg">
+                <div class="d-flex justify-content-between">
+                  <span>$4818.00</span>
+                  <a href=""  class="btn" data-bs-toggle="modal" data-bs-target="#exampleModalbuy"><span>Checkout <i class="fas fa-long-arrow-alt-right ms-2"></i></span></a>
+                </div>
+              </button>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</section>
+</div>
+    </div>
+  </div>
+</div>
+<!-- modal end -->
+    <!-- nav bar 1 -->
+    <nav class="navbar navbar-expand-lg " style="background-color:#f9efe8 ; " >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><img src="/images/favicon.png" alt="" width="200vw" id="pic" ></a> 
+        
+        <div>
+  
+      </div>
+        <div>
+          <a href="login.html" style="text-decoration: none; color:black;font-weight: bold;" >Login</a>
+          <a href="mycart.html" style="text-decoration: none; color:black;font-weight: bold;"><img src="/images/shopping-cart-removebg-preview.png" alt="" width="30vw">My Cart</a>
+         <button style="border: none; background-color:transparent;"><img src="/images/insta-removebg-preview.png" alt="" width="30vw"></button>
+         <button  style="border: none; background-color:transparent;"><img src="/images/facebook-removebg-preview.png" alt="" width="30vw"></button>
+         <button  style="border: none; background-color:transparent;"><img src="/images/x-removebg-preview.png" alt="" width="30vw"></button>
+      
+        </div>
+      </div>
+    </nav>
+    <!-- nav bar 1 ends -->
+      <!-- nav bar 2 start  -->
+      <nav class="navbar navbar-expand-lg text-black" style="background-color:#e9d9cf ; " >
+          <div class="container-fluid">
+            <a class="navbar-brand " href="index.html"><h1 style="background-image: url(/images/crystalbg.jpg); background-size: cover; background-position: center; background-clip: text; -webkit-background-clip: text; color: transparent;">CRYSTAL HAVEN</h1></a>
+           
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto">
+                <li class="nav-item">
+                  <a class="nav-link active fw-bold" href="index.html" >Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active fw-bold" href="About.html" >About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active fw-bold" href="special.html">Special Offers</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active fw-bold" href="arrival.html">New Arrival</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active fw-bold" href="product.html">Products</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active fw-bold" href="contact.html">Contact Us</a>
+                </li>
+              </ul>
+              <form class="d-flex">
+                <div class="search-container">
+                <input id="searchInput" class="form-control me-2" type="text" placeholder="Search" oninput="showSuggestions()" >
+                <ul id="suggestionList"></ul>
+                  </div>
+                <button class="btn btn-outline-info" type="button" onclick="searchProduct()">Search</button>
+                  </form>
+          </div>
+        </nav>
+      <!-- nav bar 2 ends -->  
+  
+<div class="container" >
+<div class="card">
+	<div class="row">
+		<aside class="col-sm-5 border-right">
+<article class="gallery-wrap"> 
+<div class="img-big-wrap">
+  <div> <a href="#"><img src="images/mookaite/arriv1.jpg" id="main"></a></div>
+</div> <!-- slider-product.// -->
+<div class="img-small-wrap">
+  <div class="item-gallery"> <img src="images/mookaite/mookaite-crystal-egg-48mm_2.jpg" id="img_1" onclick="document.getElementById('main').src='images/mookaite/mookaite-crystal-egg-48mm_2.jpg'"> </div>
+  <div class="item-gallery"> <img src="images/mookaite/mookaite-desert-sky-crystal-egg-48mm_3.jpg" id="img 2"onclick="document.getElementById('main').src='images/mookaite/mookaite-desert-sky-crystal-egg-48mm_3.jpg'"> </div>
+  <div class="item-gallery"> <img src="images/mookaite/mookaite-desert-sky-crystal-egg-48mm_4.jpg" id="img 3"onclick="document.getElementById('main').src='images/mookaite/mookaite-desert-sky-crystal-egg-48mm_4.jpg'"> </div>
+</div>
+ <!-- slider-nav.// -->
+</article> 
+<!-- gallery-wrap .end// -->
+		</aside>
+		<aside class="col-sm-7">
+<article class="card-body p-5">
+	<h3 class="title mb-3">
+  
+    Mookaite Crystal Egg ~48mm</h3>
+
+<p class="price-detail-wrap"> 
+	<span class="price h3 text-warning"> 
+		<span class="currency">Rs</span><span class="num">4000</span>
+	</span> 
+	<span>/per kg</span> 
+</p> <!-- price-detail-wrap .// -->
+<dl class="item-property">
+  <dt>Description</dt>
+  <dd><p>Let the unique energy of mookaite into your life with this beautiful Mookaite Egg. This egg has a lovely russet colour with natural sometimes cracked veins and areas of yellow and dark brown.
+    Mookaite is a beautiful variety of Australian jasper believed to have a powerful healing energy. It is said to encourage and balance a thirst for adventure with a sense of inner calm, which maintains the balance between external stimulation and inner processing. This egg is a great way to access the energy of mookaite.
+    The highest grade gemstone eggs are sought after by collectors, and this piece would be an asset to any collection.</p></dd>
+</dl>
+<dl class="param param-feature">
+  
+</dl>  <!-- item-property-hor .// -->
+<dl class="param param-feature">
+  <dt>Color</dt>
+  <dd>Black, White  Gray and Brown </dd>
+</dl>  <!-- item-property-hor .// -->
+<dl class="param param-feature">
+  <dt>Delivery</dt>
+  <dd>All over the Pakistan 	<img src="images/pakistan.png" alt="" width="50px" height="50px"></dd>
+</dl>  <!-- item-property-hor .// -->
+
+<hr>
+	<div class="row">
+		<div class="col-sm-5">
+			<dl class="param param-inline">
+			  <dt>Quantity: </dt>
+			  <dd>
+			  	<select class="form-control form-control-sm" style="width:70px;">
+			  		<option> 1 </option>
+			  		<option> 2 </option>
+			  		<option> 3 </option>
+			  	</select>
+			  </dd>
+			</dl>  <!-- item-property .// -->
+		</div> <!-- col.// -->
+	
+	</div> <!-- row.// -->
+	<hr>
+
+	<!--  --><button type="button"  class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"> Add to cart </button> 
+  </article> <!-- card-body.// -->
+		</aside> <!-- col.// -->
+	</div> <!-- row.// -->
+</div> <!-- card.// -->
+
+
+</div>
+<!--container.//-->
+  <!-- Footer -->
+  <footer class="text-center text-lg-start bg-light text-muted ">
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom" >
+      <div class="me-5 d-none d-lg-block">
+      <span>Get connected with us on social networks:</span>
+      </div>
+      <div>
+      <a href="https://www.facebook.com"> <button style="border: none; background-color:transparent;"><img src="/images/facebook-app-symbol.png" alt="" width="22vw"></button></a>
+      <a href="https://twitter.com/"> <button  style="border: none; background-color:transparent;"><img src="/images/twitter.png" alt="" width="20vw"></button></a>
+      <a href="https://www.google.com/"> <button  style="border: none; background-color:transparent;"><img src="/images/google.png" alt="" width="22vw"></button></a>
+      <a href="https://www.instagram.com/accounts/login/"> <button style="border: none; background-color:transparent;"><img src="/images/instagram.png" alt="" width="23vw"></button></a>
+      <a href="https://www.linkedin.com/"> <button  style="border: none; background-color:transparent;"><img src="/images/linkedin.png" alt="" width="25vw"></button></a>
+      <a href="https://github.com/"> <button  style="border: none; background-color:transparent;"><img src="/images/github.png" alt="" width="25vw"></button></a>
+    </div>
+    </section>
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+      <div class="row mt-3">
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+        <h6 class="text-uppercase fw-bold mb-4">
+          <i class="fas fa-gem me-3"></i>CRYSTALN HAVEN
+        </h6>
+        <p>
+          <a href="index.html" class="text-reset">HOME</a>
+        </p>
+        <p>
+          <a href="About.html" class="text-reset">About us</a>
+        </p>
+        <p>
+          <a href="special.html" class="text-reset">Special Offers</a>
+        </p>
+        <p>
+          <a href="arrival.html" class="text-reset">New Arrival</a>
+        </p>
+        <p>
+          <a href="product.html" class="text-reset">Product</a>
+        </p>
+        <p>
+          <a href="contact.html" class="text-reset">Contact Us</a>
+        </p>
+        <p>
+          <a href="login.html" class="text-reset">Login</a>
+        </p>
+        <p>
+          <a href="signin.html" class="text-reset">Sign-in</a>
+        </p>
+        <p>
+          <a href="mycart.html" class="text-reset">My cart</a>
+        </p>
+       
+        </div>
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+        <h6 class="text-uppercase fw-bold mb-4">
+          Customer Care
+        </h6>
+        <p>
+          <a href="help.html" class="text-reset">Help Center</a>
+        </p>
+        <p>
+          <a href="help.html" class="text-reset">How to Buy</a>
+        </p>
+        <p>
+          <a href="contact.html" class="text-reset">Contact Us</a>
+        </p>
+        <p>
+          <a href="help.html" class="text-reset">Returns & Refunds</a>
+        </p>
+        <p>
+          <a href="help.html" class="text-reset">FaQ</a>
+        </p>
+        </div>
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+        <h6 class="text-uppercase fw-bold mb-4">CRYSTAL HAVEN Internationa</h6>
+        <p>
+          <a href="#" class="text-reset"><img src="images/pakistan.png" alt="" width="25vw">Pakistan</a>
+        </p>
+        <p>
+          <a href="#" class="text-reset"><img src="images/india.png" alt="" width="25vw">India</a>
+        </p>
+        <p>
+          <a href="#" class="text-reset"><img src="images/nepal.png" alt="" width="25vw">Nepal</a>
+        </p>
+        <p>
+          <a href="#" class="text-reset"><img src="images/bangladesh.png" alt="" width="25vw">Bangladesh</a>
+        </p>
+        <p>
+          <a href="#" class="text-reset"><img src="images/china.png" alt="" width="25vw">China</a>
+        </p>  
+  
+        </div>
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <h6 class="text-uppercase fw-bold mb-4">Payment Methods</h6>
+         <p>
+            <a href="https://easypaisa.com.pk/" class="text-reset"><img src="images/eastpaisa.jpg" alt="" width="70vw"></a>
+            <a href="https://www.paypal.com/pk/home" class="text-reset"><img src="images/money.png" alt="" width="70vw"></a>
+          </p>
+          </div>
+      </div>
+      </div>
+    </section>
+    </footer>
+        <!-- Footer End --> 
+</body>
+</html>

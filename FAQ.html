@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>faq-Crystal haven</title>
+    <link rel="icon" href="/images/favicon.png">
+     <!-- bootstrap css file  -->
+     <link rel="stylesheet" href="/bootstrap.min.css">
+     	<!-- css -->
+	<link rel="stylesheet" href="file.css">
+     <!-- bootstrap js file  -->
+     <script src="/bootstrap.bundle.min.js"></script>
+     <!-- js -->
+     <script src="feature.js"></script>
+       <!-- j.query file  -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <style>
+        body{
+            background-color: #D7CAC1;
+        }
+        @media (max-width: 768px) {
+.h-custom {
+height: 100%;
+}
+#pic{
+            width: 90vw;
+            margin-left: px;
+        }
+}
+
+    </style>
+  </head>
+<body>
+    <!-- nav bar 1 -->
+  <nav class="navbar navbar-expand-lg " style="background-color:#f9efe8 ; " >
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html"><img src="/images/favicon.png" alt="" width="200vw" id="pic"></a> 
+      
+      <div>
+
+    </div>
+      <div>
+        <a href="login.html" style="text-decoration: none; color:black;font-weight: bold;" >Login</a> |
+		<a href="signin.html" style="text-decoration: none; color:black;font-weight: bold;">Sign in</a>
+        <a href="mycart.html" style="text-decoration: none; color:black;font-weight: bold;"><img src="/images/shopping-cart-removebg-preview.png" alt="" width="30vw">My Cart</a>
+       <button style="border: none; background-color:transparent;"><img src="/images/insta-removebg-preview.png" alt="" width="30vw"></button>
+       <button  style="border: none; background-color:transparent;"><img src="/images/facebook-removebg-preview.png" alt="" width="30vw"></button>
+       <button  style="border: none; background-color:transparent;"><img src="/images/x-removebg-preview.png" alt="" width="30vw"></button>
+    
+      </div>
+    </div>
+  </nav>
+  <!-- nav bar 1 ends -->
+    <!-- nav bar 2 start  -->
+    <nav class="navbar navbar-expand-lg text-black" style="background-color:#e9d9cf ; " >
+        <div class="container-fluid">
+          <a class="navbar-brand " href="index.html"><h1 style="background-image: url(/images/crystalbg.jpg); background-size: cover; background-position: center; background-clip: text; -webkit-background-clip: text; color: transparent;">CRYSTAL HAVEN</h1></a>
+         
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a class="nav-link active fw-bold" href="index.html" >Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active fw-bold" href="About.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active fw-bold" href="special.html">Special Offers</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active fw-bold" href="arrival.html">New Arrival</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active fw-bold" href="product.html" >Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active fw-bold" href="contact.html" >Contact Us</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <div class="search-container">
+              <input id="searchInput" class="form-control me-2" type="text" placeholder="Search" oninput="showSuggestions()" >
+              <ul id="suggestionList"></ul>
+                </div>
+              <button class="btn btn-outline-info" type="button" onclick="searchProduct()">Search</button>
+                </form>
+          </div>
+        </div>
+      </nav>
+	  <!-- nav bar 2 ends -->
+      <!-- home start of website  -->
+      <div id="home">
+        <div class="container-fluid text-center" style="padding-top: 100px; padding-bottom: 100px; background-color: rgb(120, 120, 242); border-top-left-radius: 50px; border-bottom-right-radius: 50px;">
+            <h1 style="color: white;">Customer Service Help Center</h1>
+            <h3 style="color: white;">Happy To Help!</h3>
+            
+            <!-- Search bar -->
+            <form class="d-flex" style="justify-content: center;">
+                <input class="form-control me-2" type="text" placeholder="What can we help you with?" style="width: 50%;">
+                <button class="btn btn-outline-info" type="button">Search</button>
+            </form>
+        </div>
+    </div>
+  <!-- home end of website  -->
+  <!-- body of website  -->
+<!--Section: FAQ-->
+<section style="margin-top: 10%; margin-bottom: 10%;">
+    <h3 class="text-center mb-4 pb-2 text-primary fw-bold ">FAQ</h3>
+    <p class="text-center mb-5">
+      Find the answers for the most frequently asked questions below
+    </p>
+  
+    <div class="row">
+      <div class="col-md-6 col-lg-4 mb-4">
+        <h6 class="mb-3 text-primary far fa-paper-plane text-primary pe-2"> How to order?</h6>
+        <p>
+          <strong><u>Browse Our Products:</u></strong>
+          Start by exploring our website to find the <a href="product.html">products</a> or services you're interested in. You can use the search bar, browse categories, or click on featured items to see what we offer. Click on the product or service you want for more details.
+          
+          <p>
+        <strong><u>Add to Cart:</u></strong>
+          Once you've found the item you'd like to purchase, click the "Add to Cart" button. This action will store the item in your shopping cart, which you can review at any time. You can continue shopping or proceed to the next step.
+          </p>
+          <p>
+          <strong><u>Checkout and Payment:</u></strong>
+          To complete your order, go to your shopping cart and click the "Checkout" or "Proceed to Checkout" button. Follow the prompts to enter your shipping information, select a payment method, and review your order. Once you're satisfied with your choices, click "Place Order" to finalize your purchase. You'll receive an order confirmation and, if applicable, shipping details shortly.
+        </p>
+      </div>
+  
+      <div class="col-md-6 col-lg-4 mb-4">
+        <h6 class="mb-3 text-primary fas fa-pen-alt text-primary pe-2"> How to cancel the order?</h6>
+        <p>
+          <strong><u> Login to Your Account:</u></strong>
+          <a href="login.html">Login</a> to your account on our website using your credentials.  </p>
+         <p> <strong><u>Request Cancellation:</u></strong>
+          
+          Find the order you want to cancel in your order history, and simply click a "Cancel" or "Request Cancellation" button/link associated with the order. Follow any further instructions provided for confirmation.
+      </p>
+      </div>
+  
+      <div class="col-md-6 col-lg-4 mb-4">
+        <h6 class="mb-3 text-primary fas fa-user text-primary pe-2">How to return your order?
+        </h6>
+        <p>
+            <strong><u>Login to Your Account:</u></strong>
+            Log in to your account on our website using your credentials.
+        </p>
+    <p>
+        <strong><u>Initiate Return:</u></strong>
+        Within your order history, locate the specific order containing the product you want to return. Click on the order, and you should see a "Request Return" or "Initiate Return" button/link associated with the product. Follow the provided instructions to begin the return process.
+    </p>
+      </div>
+  
+      <div class="col-md-6 col-lg-4 mb-4">
+        <h6 class="mb-3 text-primary fas fa-rocket text-primary pe-2">How to track your order?
+        </h6>
+        <p>
+            <strong><u>Login to Your Account:</u></strong>
+            Log in to your account on our website using your credentials.
+        </p>
+        <p>
+            <strong><u>Access Order Tracking:</u></strong>
+            Once logged in, navigate to your order history or tracking section. Find the specific order you wish to track and click on it. You should see real-time tracking information and the current status of your order. If available, you can also find a tracking number that you can use on the shipping carrier's website for more detailed tracking information.
+        </p>
+      </div>
+  
+      <div class="col-md-6 col-lg-4 mb-4">
+        <h6 class="mb-3 text-primary fas fa-home text-primary pe-2"> How can I learn more about the upcoming campaigns and the discounts?
+        </h6>
+        <p><strong><u>Subscribe to Our Newsletter:</u></strong> Sign up for our newsletter if you haven't already. We regularly send out newsletters to our subscribers, which include information about upcoming campaigns, discounts, and special promotions. You can typically find the option to subscribe to the newsletter on our website's homepage or in your account settings.</p>
+        <p><strong><u>Follow Us on Social Media:</u></strong>Stay connected with us on social media platforms like Facebook, Twitter, Instagram, and any other channels we use for updates. We often post announcements about upcoming campaigns and discount offers on our social media pages.</p>
+      </div>
+  
+      <div class="col-md-6 col-lg-4 mb-4">
+        <h6 class="mb-3 text-primary fas fa-book-open text-primary pe-2">What are the expected delivery timelines?</h6>
+        <p>
+         <strong><u>On Product Pages:</u></strong>Visit the product page to find the estimated delivery time for the specific item you wish to purchase. This estimate is based on our standard shipping method.
+        </p>
+        <p><strong><u>Order Confirmation:</u></strong>After completing your purchase, you'll receive an order confirmation email that includes the expected delivery date. This email will provide reassurance and a reference point for when to expect your order.</p>
+      </div>
+    </div>
+  </section>
+  <!--Section: FAQ-->
+  <!-- body end of website -->
+<!-- Footer -->
+<footer class="text-center text-lg-start bg-light text-muted "   style="background-color:#f9efe8; ">
+	<section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom" >
+	  <div class="me-5 d-none d-lg-block">
+		<span>Get connected with us on social networks:</span>
+	  </div>
+	  <div>
+		<a href="https://www.facebook.com"> <button style="border: none; background-color:transparent;"><img src="/images/facebook-app-symbol.png" alt="" width="22vw"></button></a>
+		<a href="https://twitter.com/"> <button  style="border: none; background-color:transparent;"><img src="/images/twitter.png" alt="" width="20vw"></button></a>
+		<a href="https://www.google.com/"> <button  style="border: none; background-color:transparent;"><img src="/images/google.png" alt="" width="22vw"></button></a>
+		<a href="https://www.instagram.com/accounts/login/"> <button style="border: none; background-color:transparent;"><img src="/images/instagram.png" alt="" width="23vw"></button></a>
+		<a href="https://www.linkedin.com/"> <button  style="border: none; background-color:transparent;"><img src="/images/linkedin.png" alt="" width="25vw"></button></a>
+		<a href="https://github.com/"> <button  style="border: none; background-color:transparent;"><img src="/images/github.png" alt="" width="25vw"></button></a>
+	</div>
+	</section>
+	<section class="">
+	  <div class="container text-center text-md-start mt-5">
+		<div class="row mt-3">
+		  <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+			<h6 class="text-uppercase fw-bold mb-4">
+			  <i class="fas fa-gem me-3"></i>CRYSTALN HAVEN
+			</h6>
+			<p>
+			  <a href="index.html" class="text-reset">HOME</a>
+			</p>
+      <p>
+			  <a href="About.html" class="text-reset">About us</a>
+			</p>
+      <p>
+			  <a href="special.html" class="text-reset">Special Offers</a>
+			</p>
+      <p>
+			  <a href="arrival.html" class="text-reset">New Arrival</a>
+			</p>
+      <p>
+			  <a href="product.html" class="text-reset">Product</a>
+			</p>
+      <p>
+			  <a href="contact.html" class="text-reset">Contact Us</a>
+			</p>
+      <p>
+			  <a href="login.html" class="text-reset">Login</a>
+			</p>
+      <p>
+			  <a href="signin.html" class="text-reset">Sign-in</a>
+			</p>
+      <p>
+			  <a href="mycart.html" class="text-reset">My cart</a>
+			</p>
+     
+		  </div>
+		  <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+			<h6 class="text-uppercase fw-bold mb-4">
+        Customer Care
+			</h6>
+			<p>
+			  <a href="help.html" class="text-reset">Help Center</a>
+			</p>
+			<p>
+			  <a href="FAQ.html" class="text-reset">How to Buy</a>
+			</p>
+			<p>
+			  <a href="contact.html" class="text-reset">Contact Us</a>
+			</p>
+			<p>
+			  <a href="return.html" class="text-reset">Returns & Refunds</a>
+			</p>
+      <p>
+			  <a href="FAQ.html" class="text-reset">FaQ</a>
+			</p>
+		  </div>
+		  <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+			<h6 class="text-uppercase fw-bold mb-4">CRYSTAL HAVEN Internationa</h6>
+      <p>
+			  <a href="#" class="text-reset"><img src="images/pakistan.png" alt="" width="25vw">Pakistan</a>
+			</p>
+      <p>
+			  <a href="#" class="text-reset"><img src="images/india.png" alt="" width="25vw">India</a>
+			</p>
+      <p>
+			  <a href="#" class="text-reset"><img src="images/nepal.png" alt="" width="25vw">Nepal</a>
+			</p>
+      <p>
+			  <a href="#" class="text-reset"><img src="images/bangladesh.png" alt="" width="25vw">Bangladesh</a>
+			</p>
+      <p>
+			  <a href="#" class="text-reset"><img src="images/china.png" alt="" width="25vw">China</a>
+			</p>  
+
+		  </div>
+      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+        <h6 class="text-uppercase fw-bold mb-4">Payment Methods</h6>
+       <p>
+          <a href="https://easypaisa.com.pk/" class="text-reset"><img src="images/eastpaisa.jpg" alt="" width="70vw"></a>
+          <a href="https://www.paypal.com/pk/home" class="text-reset"><img src="images/money.png" alt="" width="70vw"></a>
+        </p>
+        </div>
+		</div>
+	  </div>
+	</section>
+  </footer>
+      <!-- Footer End --> 
+</body>
+</html>

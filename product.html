@@ -1,0 +1,2357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products-Crystal haven</title>
+    <link rel="icon" href="/images/favicon.png">
+     <!-- bootstrap css file  -->
+     <link rel="stylesheet" href="/bootstrap.min.css">
+     <!-- bootstrap js file  -->
+     <script src="/bootstrap.bundle.min.js"></script>
+     	<!-- css -->
+	<link rel="stylesheet" href="file.css">
+     <!-- js -->
+     <script src="feature.js"></script>
+       <!-- j.query file  -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <style>
+      @media (max-width: 450px) {
+    
+    #pic{
+                width: 90vw;
+                margin-left: 10px;
+            }
+    }
+    .cart{
+			text-decoration: none;
+			padding: 6px 14px;
+		    font-size: 15px;
+		   
+		    display: inline-block;
+		    background: #6773ff;
+		    color: white;
+		}
+    
+    </style>
+  </head>
+<body>
+    <!-- nav bar 1 -->
+  <nav class="navbar navbar-expand-lg " style="background-color:#f9efe8 ; " >
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html"><img src="/images/favicon.png" alt="" width="200vw" id="pic"></a> 
+      
+      <div>
+
+    </div>
+      <div>
+        <a href="login.html" style="text-decoration: none; color:black;font-weight: bold;" >Login</a> |
+        <a href="signin.html" style="text-decoration: none; color:black;font-weight: bold;">Sign in</a>
+        <a href="mycart.html" style="text-decoration: none; color:black;font-weight: bold;"><img src="/images/shopping-cart-removebg-preview.png" alt="" width="30vw">My Cart</a>
+       <button style="border: none; background-color:transparent;"><img src="/images/insta-removebg-preview.png" alt="" width="30vw"></button>
+       <button  style="border: none; background-color:transparent;"><img src="/images/facebook-removebg-preview.png" alt="" width="30vw"></button>
+       <button  style="border: none; background-color:transparent;"><img src="/images/x-removebg-preview.png" alt="" width="30vw"></button>
+    
+      </div>
+    </div>
+  </nav>
+  <!-- nav bar 1 ends -->
+    <!-- nav bar 2 start  -->
+    <nav class="navbar navbar-expand-lg text-black" style="background-color:#e9d9cf ; " >
+        <div class="container-fluid">
+          <a class="navbar-brand " href="index.html"><h1 style="background-image: url(/images/crystalbg.jpg); background-size: cover; background-position: center; background-clip: text; -webkit-background-clip: text; color: transparent;">CRYSTAL HAVEN</h1></a>
+         
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a class="nav-link active fw-bold" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active fw-bold" href="About.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active fw-bold" href="special.html" >Special Offers</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active fw-bold" href="arrival.html">New Arrival</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active fw-bold" href="product.html">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active fw-bold" href="contact.html">Contact Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active fw-bold" href="compare.html">compare</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <div class="search-container">
+              <input id="searchInput" class="form-control me-2" type="text" placeholder="Search" oninput="showSuggestions()" >
+              <ul id="suggestionList"></ul>
+                </div>
+              <button class="btn btn-outline-info" type="button" onclick="searchProduct()">Search</button>
+                </form>
+          </div>
+        </div>
+      </nav>
+	  <!-- nav bar 2 ends -->
+     <!-- home start of website  -->
+  <div id="home">
+    <div class="container-fluid text-center" style=" background-color: #aa6ca1; border-bottom-left-radius: 100px; border-bottom-right-radius:100px;padding-top: 5%;padding-bottom: 5%;">
+        <h1 style="color: rgb(0, 0, 0); font-family:system-ui;font-weight: bolder;font-size :100px;">Products</h1>
+        <p style="color: rgb(6, 6, 6);">CRYSTAL HAVEN is the place to buy Crystal & Gemstone Jewellery, crystal pendants, crystal beads, Crystals, Fossils, Healing Stones, Rock Clusters, Geode Rocks & Tumbled Stones online. We stock over 2,000 products and our site provides extensive information on minerals, stone types, chakra and much more! We have one of the largest selections of products online and are able to source gemstone and mineral products on request.</p>
+
+    </div>
+</div>
+  <!-- home end of website  -->
+  <!-- body of website  -->
+  <section   style="margin-top: 50px;" id="small">
+    <div class="container" id="mains">
+      <div class="main-txt text-center">
+     </div>
+      <div class="row" style="margin-top: 30px;">
+        <div class="col-md-3 py-3 py-md-0" id="smaller">
+          <div class="card">
+            <img src="/images/t1.jpg" alt="">
+            <div class="card-body">
+              <h6>Lapis Lazuli Massage Stone</h6>
+             <a href="http://127.0.0.1:5500/Lapis.html" class="cart">Detail</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 py-3 py-md-0" id="smaller">
+          <div class="card">
+            <img src="/images/Agate Bookends ~11.7cm Natural.jpg" alt="">
+            <div class="card-body">
+              <h6>Agate Bookends ~ Natural</h6>
+             <a href="Agatecrystals.html" class="cart">Detail</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 py-3 py-md-0"  id="smaller">
+            <div class="card">
+              <img src="/images/t3.jpg" alt="">
+              <div class="card-body">
+                <h6>Selenite Massage Stone</h6>
+                <a href="#" class="cart">Detail</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 py-3 py-md-0"  id="smaller">
+            <div class="card">
+              <img src="/images/Blue Apatite Energy Dome.jpg" alt="">
+              <div class="card-body">
+                <h6>Blue Apatite Energy Dome
+                </h6>
+                <a href="#" class="cart">Detail</a>
+              </div>
+            </div>
+          </div>
+      </div>
+      <div class="row" style="margin-top: 30px;">
+      <div class="col-md-3 py-3 py-md-0"  id="smaller">
+        <div class="card">
+          <img src="/images/t5.jpg" alt="">
+          <div class="card-body">
+            <h6>Rose Quartz Massage Stone</h6>
+            <a href="#" class="cart">Detail</a>
+          </div>
+        </div>
+      </div>
+      
+    <div class="col-md-3 py-3 py-md-0"  id="smaller">
+      <div class="card">
+        <img src="/images/t6.jpg" alt="">
+        <div class="card-body">
+          <h6>Angelite Massage Stone</h6>
+         <a href="#" class="cart">Detail</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3 py-3 py-md-0" id="smaller">
+        <div class="card">
+          <img src="images/t7.jpg" alt="">
+          <div class="card-body">
+            <h6>Banded Carnelian Massage</h6>
+           <a href="#" class="cart">Detail</a>
+          </div>
+        </div>
+      </div>
+    <div class="col-md-3 py-3 py-md-0 "  id="smaller">
+      <div class="card">
+        <img src="images/t8.jpg" alt="">
+        <div class="card-body">
+          <h6>Charoite Massage Stone</h6>
+         <a href="#" class="cart">Detail</a>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+      <div class="row" style="margin-top: 30px;">
+        <div class="col-md-3 py-3 py-md-0"  id="smaller">
+          <div class="card">
+            <img src="/images/t9.jpg" alt="">
+            <div class="card-body">
+              <h6>Jade Massage Stone</h6>
+             <a href="#" class="cart">Detail</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 py-3 py-md-0"  id="smaller">
+          <div class="card">
+            <img src="images/t10.jpg" alt="">
+            <div class="card-body">
+              <h6>Mini Malachite & Lapis</h6>
+             <a href="#" class="cart">Detail</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 py-3 py-md-0"  id="smaller">
+            <div class="card">
+              <img src="images/t11.jpg" alt="">
+              <div class="card-body">
+                <h6>Tiger Eye Comfort Stone</h6>
+               <a href="#" class="cart">Detail</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 py-3 py-md-0 " id="smaller">
+            <div class="card">
+              <img src="images/t12.jpg" alt="">
+              <div class="card-body">
+                <h6>Pinolite Massage Stone</h6>
+               <a href="#" class="cart">Detail</a>
+              </div>
+            </div>
+          </div>
+          
+        
+      </div>
+      <div class="row" style="margin-top: 30px;">
+        <div class="col-md-3 py-3 py-md-0"  id="smaller">
+          <div class="card">
+            <img src="/images/t13.jpg" alt="">
+            <div class="card-body">
+              <h6>Tiger Iron Massage Stone </h6>
+             <a href="#" class="cart">Detail</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 py-3 py-md-0 mb-5" id="smaller">
+          <div class="card">
+            <img src="images/t14.jpg" alt="">
+            <div class="card-body">
+              <h6>Amethyst Chevron Palm
+            </h6>
+        
+             <a href="#" class="cart">Detail</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 py-3 py-md-0" id="smaller">
+            <div class="card">
+              <img src="images/t15.jpg" alt="">
+              <div class="card-body">
+                <h6>Blue Obsidian Palm</h6>
+              
+               <a href="#" class="cart">Detail</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 py-3 py-md-0" id="smaller">
+            <div class="card">
+              <img src="images/t16.jpg" alt="">
+              <div class="card-body">
+                <h6>Howlite Palm Stone</h6>
+               
+               <a href="#" class="cart">Detail</a>
+              </div>
+            </div>
+          </div>
+      </div>
+      <div class="row" >
+        <div class="col-md-3 py-3 py-md-0"  id="smaller">
+          <div class="card">
+            <img src="/images/t17.jpg" alt="">
+            <div class="card-body">
+              <h6>Lepidolite Palm Stone</h6>
+             <a href="#" class="cart">Detail</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 py-3 py-md-0 mb-5" id="smaller">
+          <div class="card">
+            <img src="images/t18.jpg" alt="">
+            <div class="card-body">
+              <h6>Amethyst Palm Stone </h6>
+        
+             <a href="#" class="cart">Detail</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 py-3 py-md-0" id="smaller">
+            <div class="card">
+              <img src="images/t19.jpg" alt="">
+              <div class="card-body">
+                <h6>Banded Black Agate</h6>
+              
+               <a href="#" class="cart">Detail</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 py-3 py-md-0" id="smaller">
+            <div class="card">
+              <img src="images/t20.jpg" alt="">
+              <div class="card-body">
+                <h6>Lapis Lazuli Thumb</h6>
+               
+               <a href="#" class="cart">Detail</a>
+              </div>
+            </div>
+          </div>
+          </div>
+          <div class="row" >
+            <div class="col-md-3 py-3 py-md-0"  id="smaller">
+              <div class="card">
+                <img src="/images/t21.jpg" alt="">
+                <div class="card-body">
+                  <h6>Carnelian Thumbstone</h6>
+                 <a href="#" class="cart">Detail</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0 mb-5" id="smaller">
+              <div class="card">
+                <img src="images/t22.jpg" alt="">
+                <div class="card-body">
+                  <h6>Dragons Blood thumbstone</h6>
+            
+                 <a href="#" class="cart">Detail</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0" id="smaller">
+                <div class="card">
+                  <img src="images/t23.jpg" alt="">
+                  <div class="card-body">
+                    <h6>Snowflake Obsidian</h6>
+                  
+                   <a href="#" class="cart">Detail</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 py-3 py-md-0" id="smaller">
+                <div class="card">
+                  <img src="images/t24.jpg" alt="">
+                  <div class="card-body">
+                    <h6>Ametrine Thumb Stone</h6>
+                   
+                   <a href="#" class="cart">Detail</a>
+                  </div>
+                </div>
+              </div>
+              </div>
+              <div class="row" style="margin-top: 30px;">
+                <div class="col-md-3 py-3 py-md-0" id="smaller">
+                  <div class="card">
+                    <img src="images/am1.jpg" alt="">
+                    <div class="card-body">
+                      <h6>Amethyst Crystal Beads </h6>
+                     <a href="#" class="cart">Detail</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3 py-3 py-md-0"  id="smaller">
+                  <div class="card">
+                    <img src="images/am2.jpg" alt="">
+                    <div class="card-body">
+                      <h6>Side Drilled Amethyst Hearts</h6>
+                      <a href="#" class="cart">Detail</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3 py-3 py-md-0"  id="smaller">
+                    <div class="card">
+                      <img src="images/am3.jpg" alt="">
+                      <div class="card-body">
+                        <h6>Amethyst Cluster Gift Box </h6>
+                        <a href="#" class="cart">Detail</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3 py-3 py-md-0" id="smaller">
+                    <div class="card">
+                      <img src="images/am4.jpg" alt="">
+                      <div class="card-body">
+                        <h6>Amethyst Cluster </h6>
+                       <a href="#" class="cart">Detail</a>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+              <div class="row" style="margin-top: 30px;">
+              <div class="col-md-3 py-3 py-md-0"  id="smaller">
+                <div class="card">
+                  <img src="images/am5.jpg" alt="">
+                  <div class="card-body">
+                    <h6>AMAZING Super Grade </h6>
+                    <a href="#" class="cart">Detail</a>
+                  </div>
+                </div>
+              </div>
+              
+            <div class="col-md-3 py-3 py-md-0"  id="smaller">
+              <div class="card">
+                <img src="images/am6.jpg" alt="">
+                <div class="card-body">
+                  <h6>GORGEOUS Amethyst Cluster</h6>
+                 <a href="#" class="cart">Detail</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0" id="smaller">
+                <div class="card">
+                  <img src="images/am7.jpg" alt="">
+                  <div class="card-body">
+                    <h6>SUPER Grade Amethyst Cluster  </h6>
+                   <a href="#" class="cart">Detail</a>
+                  </div>
+                </div>
+              </div>
+            <div class="col-md-3 py-3 py-md-0 "  id="smaller">
+              <div class="card">
+                <img src="images/am8.jpg" alt="">
+                <div class="card-body">
+                  <h6>Amethyst Cluster-medium</h6>
+                 <a href="#" class="cart">Detail</a>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+              <div class="row" style="margin-top: 30px;">
+                <div class="col-md-3 py-3 py-md-0"  id="smaller">
+                  <div class="card">
+                    <img src="images/am9.jpg" alt="">
+                    <div class="card-body">
+                      <h6>Blackberry Amethyst Healing</h6>
+                     <a href="#" class="cart">Detail</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3 py-3 py-md-0"  id="smaller">
+                  <div class="card">
+                    <img src="images/am10.jpg" alt="">
+                    <div class="card-body">
+                      <h6>Vera Cruz Amethyst Mini</h6>
+                     <a href="#" class="cart">Detail</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3 py-3 py-md-0"  id="smaller">
+                    <div class="card">
+                      <img src="images/am11.jpg" alt="">
+                      <div class="card-body">
+                        <h6>Amethyst Energy Dome</h6>
+                       <a href="#" class="cart">Detail</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3 py-3 py-md-0 " id="smaller">
+                    <div class="card">
+                      <img src="images/am12.jpg" alt="">
+                      <div class="card-body">
+                        <h6>Amethyst Crystal Point</h6>
+                       <a href="#" class="cart">Detail</a>
+                      </div>
+                    </div>
+                  </div>
+                  
+                
+              </div>
+              <div class="row" style="margin-top: 30px;">
+                <div class="col-md-3 py-3 py-md-0"  id="smaller">
+                  <div class="card">
+                    <img src="images/am13.jpg" alt="">
+                    <div class="card-body">
+                      <h6>Amethyst Healing Spear</h6>
+                     <a href="#" class="cart">Detail</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3 py-3 py-md-0 mb-4" id="smaller">
+                  <div class="card">
+                    <img src="images/am14.jpg" alt="">
+                    <div class="card-body">
+                      <h6>Red Amethyst Healing Crystal
+                    </h6>
+                
+                     <a href="#" class="cart">Detail</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3 py-3 py-md-0" id="smaller">
+                    <div class="card">
+                      <img src="images/am15.jpg" alt="">
+                      <div class="card-body">
+                        <h6>Vera Cruz Amethyst Crystal </h6>
+                      
+                       <a href="#" class="cart">Detail</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3 py-3 py-md-0" id="smaller">
+                    <div class="card">
+                      <img src="images/am16.jpg" alt="">
+                      <div class="card-body">
+                        <h6>Amethyst Healing Spear</h6>
+                       
+                       <a href="#" class="cart">Detail</a>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+              <div class="row" >
+                <div class="col-md-3 py-3 py-md-0"  id="smaller">
+                  <div class="card">
+                    <img src="images/am17.jpg" alt="">
+                    <div class="card-body">
+                      <h6>Amethyst Power Bead Bracelet</h6>
+                     <a href="#" class="cart">Detail</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3 py-3 py-md-0 mb-4" id="smaller">
+                  <div class="card">
+                    <img src="images/am18.jpg" alt="">
+                    <div class="card-body">
+                      <h6>Amethyst Silver Rim Heart</h6>
+                
+                     <a href="#" class="cart">Detail</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3 py-3 py-md-0" id="smaller">
+                    <div class="card">
+                      <img src="images/am19.jpg" alt="">
+                      <div class="card-body">
+                        <h6>Pisces Birthstone Necklace</h6>
+                      
+                       <a href="#" class="cart">Detail</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3 py-3 py-md-0" id="smaller">
+                    <div class="card">
+                      <img src="images/am20.jpg" alt="">
+                      <div class="card-body">
+                        <h6>Sunburst Silver Pendant</h6>
+                       
+                       <a href="#" class="cart">Detail</a>
+                      </div>
+                    </div>
+                  </div>
+                  </div>
+                  <div class="row" >
+                    <div class="col-md-3 py-3 py-md-0"  id="smaller">
+                      <div class="card">
+                        <img src="images/am21.jpg" alt="">
+                        <div class="card-body">
+                          <h6>Amethyst Polished Point</h6>
+                         <a href="#" class="cart">Detail</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3 py-3 py-md-0 mb-4" id="smaller">
+                      <div class="card">
+                        <img src="images/am22.jpg" alt="">
+                        <div class="card-body">
+                          <h6>Amethyst Generator Point</h6>
+                    
+                         <a href="#" class="cart">Detail</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3 py-3 py-md-0" id="smaller">
+                        <div class="card">
+                          <img src="images/am23.jpg" alt="">
+                          <div class="card-body">
+                            <h6>Amethyst Natural Crystal Point</h6>
+                          
+                           <a href="#" class="cart">Detail</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-3 py-3 py-md-0" id="smaller">
+                        <div class="card">
+                          <img src="images/am24.jpg" alt="">
+                          <div class="card-body">
+                            <h6>Amethyst Polished Flame</h6>
+                           
+                           <a href="#" class="cart">Detail</a>
+                          </div>
+                        </div>
+                      </div>
+                      </div>
+                      <div class="row" >
+                        <div class="col-md-3 py-3 py-md-0"  id="smaller">
+                          <div class="card">
+                            <img src="images/am25.jpg" alt="">
+                            <div class="card-body">
+                              <h6>Ametrine Polished Point</h6>
+                             <a href="#" class="cart">Detail</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-3 py-3 py-md-0 mb-4" id="smaller">
+                          <div class="card">
+                            <img src="images/am26.jpg" alt="">
+                            <div class="card-body">
+                              <h6>Chevron Amethyst Polished </h6>
+                        
+                             <a href="#" class="cart">Detail</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-3 py-3 py-md-0" id="smaller">
+                            <div class="card">
+                              <img src="images/am27.jpg" alt="">
+                              <div class="card-body">
+                                <h6>Amazing Amethyst Tea Light</h6>
+                              
+                               <a href="#" class="cart">Detail</a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-3 py-3 py-md-0" id="smaller">
+                            <div class="card">
+                              <img src="images/am28.jpg" alt="">
+                              <div class="card-body">
+                                <h6>Amethyst Chevron Pyramid</h6>
+                               
+                               <a href="#" class="cart">Detail</a>
+                              </div>
+                            </div>
+                          </div>
+                          </div>
+                          <div class="row" >
+                            <div class="col-md-3 py-3 py-md-0"  id="smaller">
+                              <div class="card">
+                                <img src="images/am29.jpg" alt="">
+                                <div class="card-body">
+                                  <h6>Amethyst Crystal Heart</h6>
+                                 <a href="#" class="cart">Detail</a>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-md-3 py-3 py-md-0 mb-5" id="smaller">
+                              <div class="card">
+                                <img src="images/am30.jpg" alt="">
+                                <div class="card-body">
+                                  <h6>Amethyst Drilled Tumble Stone</h6>
+                            
+                                 <a href="#" class="cart">Detail</a>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-md-3 py-3 py-md-0" id="smaller">
+                                <div class="card">
+                                  <img src="images/am31.jpg" alt="">
+                                  <div class="card-body">
+                                    <h6>Amethyst Sitting Buddha</h6>
+                                  
+                                   <a href="#" class="cart">Detail</a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-md-3 py-3 py-md-0" id="smaller">
+                                <div class="card">
+                                  <img src="images/am32.jpg" alt="">
+                                  <div class="card-body">
+                                    <h6>Amethyst Thumb Stone</h6>
+                                   
+                                   <a href="#" class="cart">Detail</a>
+                                  </div>
+                                </div>
+                              </div>
+                              </div>
+                              <div class="row" style="margin-top: 30px;">
+                                <div class="col-md-3 py-3 py-md-0" id="smaller">
+                                  <div class="card">
+                                    <img src="/images/agate1.jpg" alt="">
+                                    <div class="card-body">
+                                      <h6>Banded Agate Sphere</h6>
+                                     <a href="#" class="cart">Detail</a>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-md-3 py-3 py-md-0"  id="smaller">
+                                  <div class="card">
+                                    <img src="/images/agate2.jpg" alt="">
+                                    <div class="card-body">
+                                      <h6>Agate Sphere</h6>
+                                      <a href="#" class="cart">Detail</a>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-md-3 py-3 py-md-0"  id="smaller">
+                                    <div class="card">
+                                      <img src="/images/agate3.jpg" alt="">
+                                      <div class="card-body">
+                                        <h6>Fire Agate Healing Crysta</h6>
+                                        <a href="#" class="cart">Detail</a>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="col-md-3 py-3 py-md-0" id="smaller">
+                                    <div class="card">
+                                      <img src="images/agate4.jpg" alt="">
+                                      <div class="card-body">
+                                        <h6>Grape Agate Healing Mineral</h6>
+                                       <a href="#" class="cart">Detail</a>
+                                      </div>
+                                    </div>
+                                  </div>
+                              </div>
+                              <div class="row" style="margin-top: 30px;">
+                              <div class="col-md-3 py-3 py-md-0"  id="smaller">
+                                <div class="card">
+                                  <img src="/images/agate5.jpg" alt="">
+                                  <div class="card-body">
+                                    <h6>Blue Lace Agate Crystal Beads</h6>
+                                    <a href="#" class="cart">Detail</a>
+                                  </div>
+                                </div>
+                              </div>
+                              
+                            <div class="col-md-3 py-3 py-md-0"  id="smaller">
+                              <div class="card">
+                                <img src="/images/agate6.jpg" alt="">
+                                <div class="card-body">
+                                  <h6>Network Agate Crystal Beads</h6>
+                                 <a href="#" class="cart">Detail</a>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-md-3 py-3 py-md-0" id="smaller">
+                                <div class="card">
+                                  <img src="images/agate7.jpg" alt="">
+                                  <div class="card-body">
+                                    <h6>Fire Agate Crystal Heart </h6>
+                                   <a href="#" class="cart">Detail</a>
+                                  </div>
+                                </div>
+                              </div>
+                            <div class="col-md-3 py-3 py-md-0 "  id="smaller">
+                              <div class="card">
+                                <img src="images/agate8.jpg" alt="">
+                                <div class="card-body">
+                                  <h6>Agate Geode Gift Box </h6>
+                                 <a href="#" class="cart">Detail</a>
+                                </div>
+                              </div>
+                            </div>
+                            
+                          </div>
+                              <div class="row" style="margin-top: 30px;">
+                                <div class="col-md-3 py-3 py-md-0"  id="smaller">
+                                  <div class="card">
+                                    <img src="/images/agate9.jpg" alt="">
+                                    <div class="card-body">
+                                      <h6>Dugway Agate Geode </h6>
+                                     <a href="#" class="cart">Detail</a>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-md-3 py-3 py-md-0"  id="smaller">
+                                  <div class="card">
+                                    <img src="images/agate10.jpg" alt="">
+                                    <div class="card-body">
+                                      <h6>Mini Agate Geodes </h6>
+                                     <a href="#" class="cart">Detail</a>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-md-3 py-3 py-md-0"  id="smaller">
+                                    <div class="card">
+                                      <img src="images/a11.jpg" alt="">
+                                      <div class="card-body">
+                                        <h6>Agate Power Bead Bracelet</h6>
+                                       <a href="#" class="cart">Detail</a>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="col-md-3 py-3 py-md-0 " id="smaller">
+                                    <div class="card">
+                                      <img src="images/a12.jpg" alt="">
+                                      <div class="card-body">
+                                        <h6>Agate Gemstone Chip Bracelet</h6>
+                                       <a href="#" class="cart">Detail</a>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  
+                                
+                              </div>
+                              <div class="row" style="margin-top: 30px;">
+                                <div class="col-md-3 py-3 py-md-0"  id="smaller">
+                                  <div class="card">
+                                    <img src="/images/a13.jpg" alt="">
+                                    <div class="card-body">
+                                      <h6>Blue John Fluorite Oval 925 </h6>
+                                     <a href="#" class="cart">Detail</a>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-md-3 py-3 py-md-0 mb-4" id="smaller">
+                                  <div class="card">
+                                    <img src="images/a14.jpg" alt="">
+                                    <div class="card-body">
+                                      <h6>Wooden Jewel Box 
+                                    </h6>
+                                
+                                     <a href="#" class="cart">Detail</a>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-md-3 py-3 py-md-0" id="smaller">
+                                    <div class="card">
+                                      <img src="images/a15.jpg" alt="">
+                                      <div class="card-body">
+                                        <h6>Gemstone Multi Ring Set</h6>
+                                      
+                                       <a href="#" class="cart">Detail</a>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="col-md-3 py-3 py-md-0" id="smaller">
+                                    <div class="card">
+                                      <img src="images/a16.jpg" alt="">
+                                      <div class="card-body">
+                                        <h6>Lizardite Round 925 Silver</h6>
+                                       
+                                       <a href="#" class="cart">Detail</a>
+                                      </div>
+                                    </div>
+                                  </div>
+                              </div>
+                              <div class="row" >
+                                <div class="col-md-3 py-3 py-md-0"  id="smaller">
+                                  <div class="card">
+                                    <img src="/images/a17.jpg" alt="">
+                                    <div class="card-body">
+                                      <h6>Agate Slice Blue</h6>
+                                     <a href="#" class="cart">Detail</a>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-md-3 py-3 py-md-0 mb-5" id="smaller">
+                                  <div class="card">
+                                    <img src="images/a18.jpg" alt="">
+                                    <div class="card-body">
+                                      <h6>Agate Slice Natural </h6>
+                                
+                                     <a href="#" class="cart">Detail</a>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-md-3 py-3 py-md-0" id="smaller">
+                                    <div class="card">
+                                      <img src="images/a19.jpg" alt="">
+                                      <div class="card-body">
+                                        <h6>Agate Lovers Pair In </h6>
+                                      
+                                       <a href="#" class="cart">Detail</a>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="col-md-3 py-3 py-md-0" id="smaller">
+                                    <div class="card">
+                                      <img src="images/a20.jpg" alt="">
+                                      <div class="card-body">
+                                        <h6>Free Standing Polished Agate </h6>
+                                       
+                                       <a href="#" class="cart">Detail</a>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  </div>
+                                  <div class="row" style="margin-top: 30px;">
+                                    <div class="col-md-3 py-3 py-md-0" id="smaller">
+                                      <div class="card">
+                                        <img src="/images/he1.jpg" alt="">
+                                        <div class="card-body">
+                                          <h6>Aegirine Energy Dome</h6>
+                                         <a href="#" class="cart">Detail</a>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="col-md-3 py-3 py-md-0"  id="smaller">
+                                      <div class="card">
+                                        <img src="/images/he5.jpg" alt="">
+                                        <div class="card-body">
+                                          <h6> Chakra Bead Necklace With
+                                          </h6>
+                                          <a href="#" class="cart">Detail</a>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="col-md-3 py-3 py-md-0"  id="smaller">
+                                        <div class="card">
+                                          <img src="/images/he3.jpg" alt="">
+                                          <div class="card-body">
+                                            <h6>Sugilite & Quartz Energy Dome</h6>
+                                            <a href="#" class="cart">Detail</a>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div class="col-md-3 py-3 py-md-0" id="smaller">
+                                        <div class="card">
+                                          <img src="images/he6.jpg" alt="">
+                                          <div class="card-body">
+                                            <h6>Chakra Power Bead Bracelet
+                                            </h6> 
+                                           <a href="#" class="cart">Detail</a>
+                                          </div>
+                                        </div>
+                                      </div>
+                                  </div>
+                                  <div class="row" style="margin-top: 30px;">
+                                  <div class="col-md-3 py-3 py-md-0"  id="smaller">
+                                    <div class="card">
+                                      <img src="/images/he7.jpg" alt="">
+                                      <div class="card-body">
+                                        <h6>Chakra Stone Set with Pouch</h6>
+                                        <a href="#" class="cart">Detail</a>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  
+                                <div class="col-md-3 py-3 py-md-0"  id="smaller">
+                                  <div class="card">
+                                    <img src="/images/he8.jpg" alt="">
+                                    <div class="card-body">
+                                      <h6>Faceted Seven Chakra Serpent</h6>
+                                     <a href="#" class="cart">Detail</a>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-md-3 py-3 py-md-0" id="smaller">
+                                    <div class="card">
+                                      <img src="images/he9.jpg" alt="">
+                                      <div class="card-body">
+                                        <h6>Seven Chakra Buddha Sterling</h6>
+                                       <a href="#" class="cart">Detail</a>
+                                      </div>
+                                    </div>
+                                  </div>
+                                <div class="col-md-3 py-3 py-md-0 "  id="smaller">
+                                  <div class="card">
+                                    <img src="images/he10.jpg" alt="">
+                                    <div class="card-body">
+                                      <h6>Seven Chakra Flower Mandala</h6>
+                                     <a href="#" class="cart">Detail</a>
+                                    </div>
+                                  </div>
+                                </div>
+                                
+                              </div>
+                                  <div class="row" style="margin-top: 30px;">
+                                    <div class="col-md-3 py-3 py-md-0"  id="smaller">
+                                      <div class="card">
+                                        <img src="images/he4.jpg" alt="">
+                                        <div class="card-body">
+                                          <h6>Rose Quartz Energy Dome</h6>
+                                         <a href="#" class="cart">Detail</a>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="col-md-3 py-3 py-md-0"  id="smaller">
+                                      <div class="card">
+                                        <img src="images/he11.jpg" alt="">
+                                        <div class="card-body">
+                                          <h6>Ten Stone Chakra Set</h6>
+                                         <a href="#" class="cart">Detail</a>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="col-md-3 py-3 py-md-0"  id="smaller">
+                                        <div class="card">
+                                          <img src="images/he12.jpg" alt="">
+                                          <div class="card-body">
+                                            <h6>Seven Chakra Crystal Healing
+                                            </h6>
+                                           <a href="#" class="cart">Detail</a>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div class="col-md-3 py-3 py-md-0 " id="smaller">
+                                        <div class="card">
+                                          <img src="images/he13.jpg" alt="">
+                                          <div class="card-body">
+                                            <h6>Baltic Amber Healing Crystal</h6>
+                                           <a href="#" class="cart">Detail</a>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      
+                                    
+                                  </div>
+                                  <div class="row" style="margin-top: 30px;">
+                                    <div class="col-md-3 py-3 py-md-0"  id="smaller">
+                                      <div class="card">
+                                        <img src="/images/he14.jpg" alt="">
+                                        <div class="card-body">
+                                          <h6>Black Andradite Garnet</h6>
+                                         <a href="#" class="cart">Detail</a>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="col-md-3 py-3 py-md-0 mb-4" id="smaller">
+                                      <div class="card">
+                                        <img src="images/he15.jpg" alt="">
+                                        <div class="card-body">
+                                          <h6>Carborundum Healing Crystal</h6>
+                                         <a href="#" class="cart">Detail</a>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="col-md-3 py-3 py-md-0" id="smaller">
+                                        <div class="card">
+                                          <img src="images/he16.jpg" alt="">
+                                          <div class="card-body">
+                                            <h6>Epidote Healing Crystal</h6>
+                                           <a href="#" class="cart">Detail</a>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div class="col-md-3 py-3 py-md-0" id="smaller">
+                                        <div class="card">
+                                          <img src="images/he17.jpg" alt="">
+                                          <div class="card-body">
+                                            <h6>Gem Aquamarine Mini Healing</h6>
+                                           
+                                           <a href="#" class="cart">Detail</a>
+                                          </div>
+                                        </div>
+                                      </div>
+                                  </div>
+                                  <div class="row"  >
+                                    <div class="col-md-3 py-3 py-md-0"  id="smaller">
+                                      <div class="card">
+                                        <img src="/images/he18.jpg" alt="">
+                                        <div class="card-body">
+                                          <h6>Magnesium Healing Crystal</h6>
+                                         <a href="#" class="cart">Detail</a>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="col-md-3 py-3 py-md-0 mb-4" id="smaller">
+                                      <div class="card">
+                                        <img src="images/he19.jpg" alt="">
+                                        <div class="card-body">
+                                          <h6>Mini Herkimer Diamonds</h6>
+                                    
+                                         <a href="#" class="cart">Detail</a>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="col-md-3 py-3 py-md-0" id="smaller">
+                                        <div class="card">
+                                          <img src="images/he20.jpg" alt="">
+                                          <div class="card-body">
+                                            <h6>Petroleum Herkimer Diamond</h6>
+                                          
+                                           <a href="#" class="cart">Detail</a>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div class="col-md-3 py-3 py-md-0" id="smaller">
+                                        <div class="card">
+                                          <img src="images/he21.jpg" alt="">
+                                          <div class="card-body">
+                                            <h6>Amethyst Chevron Double</h6>
+                                           <a href="#" class="cart">Detail</a>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                      <div class="row">
+                                        <div class="col-md-3 py-3 py-md-0"  id="smaller">
+                                          <div class="card">
+                                            <img src="/images/he22.jpg" alt="">
+                                            <div class="card-body">
+                                              <h6>Amethyst Crystal Pendulum</h6>
+                                             <a href="#" class="cart">Detail</a>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="col-md-3 py-3 py-md-0 mb-5" id="smaller">
+                                          <div class="card">
+                                            <img src="images/he23.jpg" alt="">
+                                            <div class="card-body">
+                                              <h6>Amethyst Long Drop</h6>
+                                        
+                                             <a href="#" class="cart">Detail</a>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="col-md-3 py-3 py-md-0" id="smaller">
+                                            <div class="card">
+                                              <img src="images/he2.jpg" alt="">
+                                              <div class="card-body">
+                                                <h6>Chrysocolla Energy Dome</h6>
+                                              
+                                               <a href="#" class="cart">Detail</a>
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <div class="col-md-3 py-3 py-md-0" id="smaller">
+                                            <div class="card">
+                                              <img src="images/he24.jpg" alt="">
+                                              <div class="card-body">
+                                                <h6>Red Jasper Egyptian Pendulum</h6>
+                                               
+                                               <a href="#" class="cart">Detail</a>
+                                              </div>
+                                            </div>
+                                          </div>
+                                          </div>
+                                          <div class="row">
+                                            <div class="col-md-3 py-3 py-md-0"  id="smaller">
+                                              <div class="card">
+                                                <img src="/images/he25.jpg" alt="">
+                                                <div class="card-body">
+                                                  <h6>Rose Quartz Supreme</h6>
+                                                 <a href="#" class="cart">Detail</a>
+                                                </div>
+                                              </div>
+                                            </div>
+                                            <div class="col-md-3 py-3 py-md-0 mb-5" id="smaller">
+                                              <div class="card">
+                                                <img src="images/he26.jpg" alt="">
+                                                <div class="card-body">
+                                                  <h6>Black Obsidian Crystal</h6>
+                                            
+                                                 <a href="#" class="cart">Detail</a>
+                                                </div>
+                                              </div>
+                                            </div>
+                                            <div class="col-md-3 py-3 py-md-0" id="smaller">
+                                                <div class="card">
+                                                  <img src="images/he27.jpg" alt="">
+                                                  <div class="card-body">
+                                                    <h6>Hematite Crystal Massage</h6>
+                                                  
+                                                   <a href="#" class="cart">Detail</a>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                              <div class="col-md-3 py-3 py-md-0" id="smaller">
+                                                <div class="card">
+                                                  <img src="images/he28.jpg" alt="">
+                                                  <div class="card-body">
+                                                    <h6>Hematite Crystal Massage</h6>
+                                                   
+                                                   <a href="#" class="cart">Detail</a>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                              </div>
+                                              <div class="row">
+                                                <div class="col-md-3 py-3 py-md-0"  id="smaller">
+                                                  <div class="card">
+                                                    <img src="/images/he29.jpg" alt="">
+                                                    <div class="card-body">
+                                                      <h6>Lepidolite Crystal Massage</h6>
+                                                     <a href="#" class="cart">Detail</a>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                                <div class="col-md-3 py-3 py-md-0 mb-5" id="smaller">
+                                                  <div class="card">
+                                                    <img src="images/he30.jpg" alt="">
+                                                    <div class="card-body">
+                                                      <h6>Amethyst Crystal Massage</h6>
+                                                
+                                                     <a href="#" class="cart">Detail</a>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                                <div class="col-md-3 py-3 py-md-0" id="smaller">
+                                                    <div class="card">
+                                                      <img src="images/he31.jpg" alt="">
+                                                      <div class="card-body">
+                                                        <h6>Blue Goldstone Crystal</h6>
+                                                      
+                                                       <a href="#" class="cart">Detail</a>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                  <div class="col-md-3 py-3 py-md-0" id="smaller">
+                                                    <div class="card">
+                                                      <img src="images/he32.jpg" alt="">
+                                                      <div class="card-body">
+                                                        <h6>Nephrite Jade Massage Wand </h6>
+                                                       
+                                                       <a href="#" class="cart">Detail</a>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                  </div>
+                                                  <div class="row">
+                                                    <div class="col-md-3 py-3 py-md-0"  id="smaller">
+                                                      <div class="card">
+                                                        <img src="/images/he33.jpg" alt="">
+                                                        <div class="card-body">
+                                                          <h6>Amethyst Pro Grip Crystal </h6>
+                                                         <a href="#" class="cart">Detail</a>
+                                                        </div>
+                                                      </div>
+                                                    </div>
+                                                    <div class="col-md-3 py-3 py-md-0 mb-5" id="smaller">
+                                                      <div class="card">
+                                                        <img src="images/he34.jpg" alt="">
+                                                        <div class="card-body">
+                                                          <h6>Rainbow Fluorite Crystal </h6>
+                                                    
+                                                         <a href="#" class="cart">Detail</a>
+                                                        </div>
+                                                      </div>
+                                                    </div>
+                                                    <div class="col-md-3 py-3 py-md-0" id="smaller">
+                                                        <div class="card">
+                                                          <img src="images/he35.jpg" alt="">
+                                                          <div class="card-body">
+                                                            <h6>Crystal Chakra Healing</h6>
+                                                          
+                                                           <a href="#" class="cart">Detail</a>
+                                                          </div>
+                                                        </div>
+                                                      </div>
+                                                      <div class="col-md-3 py-3 py-md-0" id="smaller">
+                                                        <div class="card">
+                                                          <img src="images/he36.jpg" alt="">
+                                                          <div class="card-body">
+                                                            <h6>Picture Jasper Crystal</h6>
+                                                           
+                                                           <a href="#" class="cart">Detail</a>
+                                                          </div>
+                                                        </div>
+                                                      </div>
+                                                      </div>
+                                                      <div class="row">
+                                                        <div class="col-md-3 py-3 py-md-0"  id="smaller">
+                                                          <div class="card">
+                                                            <img src="/images/he37.jpg" alt="">
+                                                            <div class="card-body">
+                                                              <h6>Red Mookaite Crystal</h6>
+                                                             <a href="#" class="cart">Detail</a>
+                                                            </div>
+                                                          </div>
+                                                        </div>
+                                                        <div class="col-md-3 py-3 py-md-0 mb-5" id="smaller">
+                                                          <div class="card">
+                                                            <img src="images/he38.jpg" alt="">
+                                                            <div class="card-body">
+                                                              <h6>Rose Quartz & Rainbow</h6>
+                                                        
+                                                             <a href="#" class="cart">Detail</a>
+                                                            </div>
+                                                          </div>
+                                                        </div>
+                                                        <div class="col-md-3 py-3 py-md-0" id="smaller">
+                                                            <div class="card">
+                                                              <img src="images/he39.jpg" alt="">
+                                                              <div class="card-body">
+                                                                <h6>Selenite & Rainbow Fluorite</h6>
+                                                              
+                                                               <a href="#" class="cart">Detail</a>
+                                                              </div>
+                                                            </div>
+                                                          </div>
+                                                          <div class="col-md-3 py-3 py-md-0" id="smaller">
+                                                            <div class="card">
+                                                              <img src="images/he40.jpg" alt="">
+                                                              <div class="card-body">
+                                                                <h6>Pietersite Pro Grip Massage</h6>
+                                                               
+                                                               <a href="#" class="cart">Detail</a>
+                                                              </div>
+                                                            </div>
+                                                          </div>
+                                                          </div>
+                                                          <div class="row" style="margin-top: 30px;">
+                                                            <div class="col-md-3 py-3 py-md-0" id="smaller">
+                                                              <div class="card">
+                                                                <img src="/images/j1.jpg" alt="">
+                                                                <div class="card-body">
+                                                                  <h6>925 Silver Chain - Round Snake</h6>
+                                                                 <a href="#" class="cart">Detail</a>
+                                                                </div>
+                                                              </div>
+                                                            </div>
+                                                            <div class="col-md-3 py-3 py-md-0"  id="smaller">
+                                                              <div class="card">
+                                                                <img src="/images/j2.jpg" alt="">
+                                                                <div class="card-body">
+                                                                  <h6>Leather Cord Necklace - 18inch</h6>
+                                                                  <a href="#" class="cart">Detail</a>
+                                                                </div>
+                                                              </div>
+                                                            </div>
+                                                            <div class="col-md-3 py-3 py-md-0"  id="smaller">
+                                                                <div class="card">
+                                                                  <img src="/images/j3.jpg" alt="">
+                                                                  <div class="card-body">
+                                                                    <h6>Spiral Gemstone Holder </h6>
+                                                                    <a href="#" class="cart">Detail</a>
+                                                                  </div>
+                                                                </div>
+                                                              </div>
+                                                              <div class="col-md-3 py-3 py-md-0" id="smaller">
+                                                                <div class="card">
+                                                                  <img src="images/j4.jpg" alt="">
+                                                                  <div class="card-body">
+                                                                    <h6>Suede Cord Pink - 80cm</h6>
+                                                                   <a href="#" class="cart">Detail</a>
+                                                                  </div>
+                                                                </div>
+                                                              </div>
+                                                          </div>
+                                                          <div class="row" style="margin-top: 30px;">
+                                                          <div class="col-md-3 py-3 py-md-0"  id="smaller">
+                                                            <div class="card">
+                                                              <img src="/images/j5.jpg" alt="">
+                                                              <div class="card-body">
+                                                                <h6>Citrine Polished Point</h6>
+                                                                <a href="#" class="cart">Detail</a>
+                                                              </div>
+                                                            </div>
+                                                          </div>
+                                                          
+                                                        <div class="col-md-3 py-3 py-md-0"  id="smaller">
+                                                          <div class="card">
+                                                            <img src="/images/j6.jpg" alt="">
+                                                            <div class="card-body">
+                                                              <h6>Siberian Amethyst Rectangle </h6>
+                                                             <a href="#" class="cart">Detail</a>
+                                                            </div>
+                                                          </div>
+                                                        </div>
+                                                        <div class="col-md-3 py-3 py-md-0" id="smaller">
+                                                            <div class="card">
+                                                              <img src="images/j7.jpg" alt="">
+                                                              <div class="card-body">
+                                                                <h6>Siberian Aquamarine Teardrop </h6>
+                                                               <a href="#" class="cart">Detail</a>
+                                                              </div>
+                                                            </div>
+                                                          </div>
+                                                        <div class="col-md-3 py-3 py-md-0 "  id="smaller">
+                                                          <div class="card">
+                                                            <img src="images/j8.jpg" alt="">
+                                                            <div class="card-body">
+                                                              <h6>Siberian Amethyst Teardrop</h6>
+                                                             <a href="#" class="cart">Detail</a>
+                                                            </div>
+                                                          </div>
+                                                        </div>
+                                                        
+                                                      </div>
+                                                          <div class="row" style="margin-top: 30px;">
+                                                            <div class="col-md-3 py-3 py-md-0"  id="smaller">
+                                                              <div class="card">
+                                                                <img src="images/j9.jpg" alt="">
+                                                                <div class="card-body">
+                                                                  <h6>Siberian Emerald Rectangle</h6>
+                                                                 <a href="#" class="cart">Detail</a>
+                                                                </div>
+                                                              </div>
+                                                            </div>
+                                                            <div class="col-md-3 py-3 py-md-0"  id="smaller">
+                                                              <div class="card">
+                                                                <img src="images/j10.jpg" alt="">
+                                                                <div class="card-body">
+                                                                  <h6>Siberian Pink Sapphire Round</h6>
+                                                                 <a href="#" class="cart">Detail</a>
+                                                                </div>
+                                                              </div>
+                                                            </div>
+                                                            <div class="col-md-3 py-3 py-md-0"  id="smaller">
+                                                                <div class="card">
+                                                                  <img src="images/j11.jpg" alt="">
+                                                                  <div class="card-body">
+                                                                    <h6>Amber & Silver Bracelet
+                                                                    </h6>
+                                                                   <a href="#" class="cart">Detail</a>
+                                                                  </div>
+                                                                </div>
+                                                              </div>
+                                                              <div class="col-md-3 py-3 py-md-0 " id="smaller">
+                                                                <div class="card">
+                                                                  <img src="images/j12.jpg" alt="">
+                                                                  <div class="card-body">
+                                                                    <h6>Amethyst & Garnet Goddess </h6>
+                                                                   <a href="#" class="cart">Detail</a>
+                                                                  </div>
+                                                                </div>
+                                                              </div>
+                                                              
+                                                            
+                                                          </div>
+                                                          <div class="row" style="margin-top: 30px;">
+                                                            <div class="col-md-3 py-3 py-md-0"  id="smaller">
+                                                              <div class="card">
+                                                                <img src="/images/j13.jpg" alt="">
+                                                                <div class="card-body">
+                                                                  <h6>Amethyst Silver Rim Heart</h6>
+                                                                 <a href="#" class="cart">Detail</a>
+                                                                </div>
+                                                              </div>
+                                                            </div>
+                                                            <div class="col-md-3 py-3 py-md-0 mb-4" id="smaller">
+                                                              <div class="card">
+                                                                <img src="images/j14.jpg" alt="">
+                                                                <div class="card-body">
+                                                                  <h6>Blue Lace Agate & Silver</h6>
+                                                                 <a href="#" class="cart">Detail</a>
+                                                                </div>
+                                                              </div>
+                                                            </div>
+                                                            <div class="col-md-3 py-3 py-md-0" id="smaller">
+                                                                <div class="card">
+                                                                  <img src="images/j15.jpg" alt="">
+                                                                  <div class="card-body">
+                                                                    <h6>Carnelian and Moss Agate</h6>
+                                                                   <a href="#" class="cart">Detail</a>
+                                                                  </div>
+                                                                </div>
+                                                              </div>
+                                                              <div class="col-md-3 py-3 py-md-0" id="smaller">
+                                                                <div class="card">
+                                                                  <img src="images/j16.jpg" alt="">
+                                                                  <div class="card-body">
+                                                                    <h6>Danburite Healing Crystal</h6>
+                                                                   
+                                                                   <a href="#" class="cart">Detail</a>
+                                                                  </div>
+                                                                </div>
+                                                              </div>
+                                                          </div>
+                                                          <div class="row"  >
+                                                            <div class="col-md-3 py-3 py-md-0"  id="smaller">
+                                                              <div class="card">
+                                                                <img src="/images/j17.jpg" alt="">
+                                                                <div class="card-body">
+                                                                  <h6>Faceted White Onyx & Silver</h6>
+                                                                 <a href="#" class="cart">Detail</a>
+                                                                </div>
+                                                              </div>
+                                                            </div>
+                                                            <div class="col-md-3 py-3 py-md-0 mb-4" id="smaller">
+                                                              <div class="card">
+                                                                <img src="images/j18.jpg" alt="">
+                                                                <div class="card-body">
+                                                                  <h6>Gemstone Multi Ring Set</h6>
+                                                            
+                                                                 <a href="#" class="cart">Detail</a>
+                                                                </div>
+                                                              </div>
+                                                            </div>
+                                                            <div class="col-md-3 py-3 py-md-0" id="smaller">
+                                                                <div class="card">
+                                                                  <img src="images/j19.jpg" alt="">
+                                                                  <div class="card-body">
+                                                                    <h6>Opal & Silver 9-Stone Drop</h6>
+                                                                  
+                                                                   <a href="#" class="cart">Detail</a>
+                                                                  </div>
+                                                                </div>
+                                                              </div>
+                                                              <div class="col-md-3 py-3 py-md-0" id="smaller">
+                                                                <div class="card">
+                                                                  <img src="images/j204.jpg" alt="">
+                                                                  <div class="card-body">
+                                                                    <h6>Mother of Pearl & Silver</h6>
+                                                                   <a href="#" class="cart">Detail</a>
+                                                                  </div>
+                                                                </div>
+                                                              </div>
+                                                            </div>
+                                                              <div class="row">
+                                                                <div class="col-md-3 py-3 py-md-0"  id="smaller">
+                                                                  <div class="card">
+                                                                    <img src="/images/j21.jpg" alt="">
+                                                                    <div class="card-body">
+                                                                      <h6>Opal & Silver Bracelet ~187mm</h6>
+                                                                     <a href="#" class="cart">Detail</a>
+                                                                    </div>
+                                                                  </div>
+                                                                </div>
+                                                                <div class="col-md-3 py-3 py-md-0 mb-5" id="smaller">
+                                                                  <div class="card">
+                                                                    <img src="images/j22.jpg" alt="">
+                                                                    <div class="card-body">
+                                                                      <h6>Gold Wrap Chain with 7 Raw</h6>
+                                                                
+                                                                     <a href="#" class="cart">Detail</a>
+                                                                    </div>
+                                                                  </div>
+                                                                </div>
+                                                                <div class="col-md-3 py-3 py-md-0" id="smaller">
+                                                                    <div class="card">
+                                                                      <img src="images/j23.jpg" alt="">
+                                                                      <div class="card-body">
+                                                                        <h6>Solid Hematite Ring (Thick)</h6>
+                                                                      
+                                                                       <a href="#" class="cart">Detail</a>
+                                                                      </div>
+                                                                    </div>
+                                                                  </div>
+                                                                  <div class="col-md-3 py-3 py-md-0" id="smaller">
+                                                                    <div class="card">
+                                                                      <img src="images/j24.jpg" alt="">
+                                                                      <div class="card-body">
+                                                                        <h6>Tanzanite & Silver Ring </h6>
+                                                                       
+                                                                       <a href="#" class="cart">Detail</a>
+                                                                      </div>
+                                                                    </div>
+                                                                  </div>
+                                                                  </div>
+                                                                  <div class="row" style="margin-top: 30px;">
+                                                                    <div class="col-md-3 py-3 py-md-0" id="smaller">
+                                                                      <div class="card">
+                                                                        <img src="/images/be1.jpg" alt="">
+                                                                        <div class="card-body">
+                                                                          <h6>Amethyst Crystal Beads </h6>
+                                                                         <a href="#" class="cart">Detail</a>
+                                                                        </div>
+                                                                      </div>
+                                                                    </div>
+                                                                    <div class="col-md-3 py-3 py-md-0"  id="smaller">
+                                                                      <div class="card">
+                                                                        <img src="/images/be2.jpg" alt="">
+                                                                        <div class="card-body">
+                                                                          <h6>Blue Lace Agate Crystal Beads
+                                                                          </h6>
+                                                                          <a href="#" class="cart">Detail</a>
+                                                                        </div>
+                                                                      </div>
+                                                                    </div>
+                                                                    <div class="col-md-3 py-3 py-md-0"  id="smaller">
+                                                                        <div class="card">
+                                                                          <img src="/images/be3.jpg" alt="">
+                                                                          <div class="card-body">
+                                                                            <h6>Network Agate Crystal Beads</h6>
+                                                                            <a href="#" class="cart">Detail</a>
+                                                                          </div>
+                                                                        </div>
+                                                                      </div>
+                                                                      <div class="col-md-3 py-3 py-md-0" id="smaller">
+                                                                        <div class="card">
+                                                                          <img src="images/be4.jpg" alt="">
+                                                                          <div class="card-body">
+                                                                            <h6>Network Agate Crystal Beads
+                                                                            </h6>
+                                                                           <a href="#" class="cart">Detail</a>
+                                                                          </div>
+                                                                        </div>
+                                                                      </div>
+                                                                  </div>
+                                                                  <div class="row" style="margin-top: 30px;">
+                                                                  <div class="col-md-3 py-3 py-md-0"  id="smaller">
+                                                                    <div class="card">
+                                                                      <img src="/images/be5.jpg" alt="">
+                                                                      <div class="card-body">
+                                                                        <h6>Aura Crystal Beads</h6>
+                                                                        <a href="#" class="cart">Detail</a>
+                                                                      </div>
+                                                                    </div>
+                                                                  </div>
+                                                                  
+                                                                <div class="col-md-3 py-3 py-md-0"  id="smaller">
+                                                                  <div class="card">
+                                                                    <img src="/images/be6.jpg" alt="">
+                                                                    <div class="card-body">
+                                                                      <h6>Magnetic Hematite Crystal</h6>
+                                                                     <a href="#" class="cart">Detail</a>
+                                                                    </div>
+                                                                  </div>
+                                                                </div>
+                                                                <div class="col-md-3 py-3 py-md-0" id="smaller">
+                                                                    <div class="card">
+                                                                      <img src="images/be7.jpg" alt="">
+                                                                      <div class="card-body">
+                                                                        <h6>Hematite Crystal Beads</h6>
+                                                                       <a href="#" class="cart">Detail</a>
+                                                                      </div>
+                                                                    </div>
+                                                                  </div>
+                                                                <div class="col-md-3 py-3 py-md-0 "  id="smaller">
+                                                                  <div class="card">
+                                                                    <img src="images/be8.jpg" alt="">
+                                                                    <div class="card-body">
+                                                                      <h6>Red Goldstone Crystal Beads</h6>
+                                                                     <a href="#" class="cart">Detail</a>
+                                                                    </div>
+                                                                  </div>
+                                                                </div>
+                                                                
+                                                              </div>
+                                                                  <div class="row" style="margin-top: 30px;">
+                                                                    <div class="col-md-3 py-3 py-md-0"  id="smaller">
+                                                                      <div class="card">
+                                                                        <img src="images/be9.jpg" alt="">
+                                                                        <div class="card-body">
+                                                                          <h6>Goldstone Red Gemstone</h6>
+                                                                         <a href="#" class="cart">Detail</a>
+                                                                        </div>
+                                                                      </div>
+                                                                    </div>
+                                                                    <div class="col-md-3 py-3 py-md-0"  id="smaller">
+                                                                      <div class="card">
+                                                                        <img src="images/be10.jpg" alt="">
+                                                                        <div class="card-body">
+                                                                          <h6>White Moonstone Gemstone </h6>
+                                                                         <a href="#" class="cart">Detail</a>
+                                                                        </div>
+                                                                      </div>
+                                                                    </div>
+                                                                    <div class="col-md-3 py-3 py-md-0"  id="smaller">
+                                                                        <div class="card">
+                                                                          <img src="images/be12.jpg" alt="">
+                                                                          <div class="card-body">
+                                                                            <h6>Rhodochrosite Crystal Beads
+                                                                            </h6>
+                                                                           <a href="#" class="cart">Detail</a>
+                                                                          </div>
+                                                                        </div>
+                                                                      </div>
+                                                                      <div class="col-md-3 py-3 py-md-0 " id="smaller">
+                                                                        <div class="card">
+                                                                          <img src="images/be11.jpg" alt="">
+                                                                          <div class="card-body">
+                                                                            <h6>Rhodochrosite Crystal Beads</h6>
+                                                                           <a href="#" class="cart">Detail</a>
+                                                                          </div>
+                                                                        </div>
+                                                                      </div>
+                                                                      
+                                                                    
+                                                                  </div>
+                                                                  <div class="row" style="margin-top: 30px;">
+                                                                    <div class="col-md-3 py-3 py-md-0"  id="smaller">
+                                                                      <div class="card">
+                                                                        <img src="/images/be13.jpg" alt="">
+                                                                        <div class="card-body">
+                                                                          <h6>Lava Crystal Beads</h6>
+                                                                         <a href="#" class="cart">Detail</a>
+                                                                        </div>
+                                                                      </div>
+                                                                    </div>
+                                                                    <div class="col-md-3 py-3 py-md-0 mb-4" id="smaller">
+                                                                      <div class="card">
+                                                                        <img src="images/be15.jpg" alt="">
+                                                                        <div class="card-body">
+                                                                          <h6>Mookaite Crystal Beads</h6>
+                                                                         <a href="#" class="cart">Detail</a>
+                                                                        </div>
+                                                                      </div>
+                                                                    </div>
+                                                                    <div class="col-md-3 py-3 py-md-0" id="smaller">
+                                                                        <div class="card">
+                                                                          <img src="images/be14.jpg" alt="">
+                                                                          <div class="card-body">
+                                                                            <h6>Mookaite Crystal Beads </h6>
+                                                                           <a href="#" class="cart">Detail</a>
+                                                                          </div>
+                                                                        </div>
+                                                                      </div>
+                                                                      <div class="col-md-3 py-3 py-md-0" id="smaller">
+                                                                        <div class="card">
+                                                                          <img src="images/be16.jpg" alt="">
+                                                                          <div class="card-body">
+                                                                            <h6>Rhodonite Gemstone Chips</h6>
+                                                                           
+                                                                           <a href="#" class="cart">Detail</a>
+                                                                          </div>
+                                                                        </div>
+                                                                      </div>
+                                                                  </div>
+                                                                  <div class="row"  >
+                                                                    <div class="col-md-3 py-3 py-md-0"  id="smaller">
+                                                                      <div class="card">
+                                                                        <img src="/images/be17.jpg" alt="">
+                                                                        <div class="card-body">
+                                                                          <h6>Rose Quartz Crystal Beads</h6>
+                                                                         <a href="#" class="cart">Detail</a>
+                                                                        </div>
+                                                                      </div>
+                                                                    </div>
+                                                                    <div class="col-md-3 py-3 py-md-0 mb-4" id="smaller">
+                                                                      <div class="card">
+                                                                        <img src="images/be18.jpg" alt="">
+                                                                        <div class="card-body">
+                                                                          <h6>Rose Quartz Crystal Beads</h6>
+                                                                    
+                                                                         <a href="#" class="cart">Detail</a>
+                                                                        </div>
+                                                                      </div>
+                                                                    </div>
+                                                                    <div class="col-md-3 py-3 py-md-0" id="smaller">
+                                                                        <div class="card">
+                                                                          <img src="images/be19.jpg" alt="">
+                                                                          <div class="card-body">
+                                                                            <h6>Madagascan Rose Quartz</h6>
+                                                                          
+                                                                           <a href="#" class="cart">Detail</a>
+                                                                          </div>
+                                                                        </div>
+                                                                      </div>
+                                                                      <div class="col-md-3 py-3 py-md-0" id="smaller">
+                                                                        <div class="card">
+                                                                          <img src="images/be20.jpg" alt="">
+                                                                          <div class="card-body">
+                                                                            <h6>Madagascan Rose Quartz </h6>
+                                                                           <a href="#" class="cart">Detail</a>
+                                                                          </div>
+                                                                        </div>
+                                                                      </div>
+                                                                    </div>
+                                                                      <div class="row">
+                                                                        <div class="col-md-3 py-3 py-md-0"  id="smaller">
+                                                                          <div class="card">
+                                                                            <img src="/images/be21.jpg" alt="">
+                                                                            <div class="card-body">
+                                                                              <h6>Side Drilled Rose Quartz </h6>
+                                                                             <a href="#" class="cart">Detail</a>
+                                                                            </div>
+                                                                          </div>
+                                                                        </div>
+                                                                        <div class="col-md-3 py-3 py-md-0 mb-5" id="smaller">
+                                                                          <div class="card">
+                                                                            <img src="images/be22.jpg" alt="">
+                                                                            <div class="card-body">
+                                                                              <h6>Front Drilled Rose Quartz</h6>
+                                                                        
+                                                                             <a href="#" class="cart">Detail</a>
+                                                                            </div>
+                                                                          </div>
+                                                                        </div>
+                                                                        <div class="col-md-3 py-3 py-md-0" id="smaller">
+                                                                            <div class="card">
+                                                                              <img src="images/be23.jpg" alt="">
+                                                                              <div class="card-body">
+                                                                                <h6>Side Drilled Quartz Hearts</h6>
+                                                                              
+                                                                               <a href="#" class="cart">Detail</a>
+                                                                              </div>
+                                                                            </div>
+                                                                          </div>
+                                                                          <div class="col-md-3 py-3 py-md-0" id="smaller">
+                                                                            <div class="card">
+                                                                              <img src="images/be24.jpg" alt="">
+                                                                              <div class="card-body">
+                                                                                <h6>Side Drilled Amethyst Hearts</h6>
+                                                                               
+                                                                               <a href="#" class="cart">Detail</a>
+                                                                              </div>
+                                                                            </div>
+                                                                          </div>
+                                                                          </div>
+                                                                          <div class="row" style="margin-top: 30px;">
+                                                                            <div class="col-md-3 py-3 py-md-0" id="smaller">
+                                                                              <div class="card">
+                                                                                <img src="/images/Carnelian Generator Point.jpg" alt="">
+                                                                                <div class="card-body">
+                                                                                  <h6>Carnelian Generator Point</h6>
+                                                                                 <a href="#" class="cart">Detail</a>
+                                                                                </div>
+                                                                              </div>
+                                                                            </div>
+                                                                            <div class="col-md-3 py-3 py-md-0"  id="smaller">
+                                                                              <div class="card">
+                                                                                <img src="/images/Amethyst Generator Point.jpg" alt="">
+                                                                                <div class="card-body">
+                                                                                  <h6>Amethyst Generator Point
+                                                                                  </h6>
+                                                                                  <a href="#" class="cart">Detail</a>
+                                                                                </div>
+                                                                              </div>
+                                                                            </div>
+                                                                            <div class="col-md-3 py-3 py-md-0"  id="smaller">
+                                                                                <div class="card">
+                                                                                  <img src="/images/Natural Agate Generator Point.jpg" alt="">
+                                                                                  <div class="card-body">
+                                                                                    <h6>Natural Agate Generator Point</h6>
+                                                                                    <a href="#" class="cart">Detail</a>
+                                                                                  </div>
+                                                                                </div>
+                                                                              </div>
+                                                                              <div class="col-md-3 py-3 py-md-0" id="smaller">
+                                                                                <div class="card">
+                                                                                  <img src="images/snakeskin-jasper-generator-point.jpg" alt="">
+                                                                                  <div class="card-body">
+                                                                                    <h6>Snakeskin Jasper Generator Point</h6>
+                                                                                   <a href="#" class="cart">Detail</a>
+                                                                                  </div>
+                                                                                </div>
+                                                                              </div>
+                                                                          </div>
+                                                                          <div class="row" style="margin-top: 30px;">
+                                                                          <div class="col-md-3 py-3 py-md-0"  id="smaller">
+                                                                            <div class="card">
+                                                                              <img src="/images/New Jade (Light) Generator Point.jpg" alt="">
+                                                                              <div class="card-body">
+                                                                                <h6>New Jade (Light) Generator Point</h6>
+                                                                                <a href="#" class="cart">Detail</a>
+                                                                              </div>
+                                                                            </div>
+                                                                          </div>
+                                                                          
+                                                                        <div class="col-md-3 py-3 py-md-0"  id="smaller">
+                                                                          <div class="card">
+                                                                            <img src="/images/Carnelian Donut Necklace 'Joy'.jpg" alt="">
+                                                                            <div class="card-body">
+                                                                              <h6>Carnelian Donut Necklace 'Joy'</h6>
+                                                                             <a href="#" class="cart">Detail</a>
+                                                                            </div>
+                                                                          </div>
+                                                                        </div>
+                                                                        <div class="col-md-3 py-3 py-md-0" id="smaller">
+                                                                            <div class="card">
+                                                                              <img src="images/Obsidian Agogo Donut Necklace & Velvet Pouch.jpg" alt="">
+                                                                              <div class="card-body">
+                                                                                <h6>Obsidian Agogo Donut Necklace & Velvet Pouch</h6>
+                                                                               <a href="#" class="cart">Detail</a>
+                                                                              </div>
+                                                                            </div>
+                                                                          </div>
+                                                                        <div class="col-md-3 py-3 py-md-0 "  id="smaller">
+                                                                          <div class="card">
+                                                                            <img src="images/Amethyst Freeform Sculpture.jpg" alt="">
+                                                                            <div class="card-body">
+                                                                              <h6>Amethyst Freeform Sculpture</h6>
+                                                                             <a href="#" class="cart">Detail</a>
+                                                                            </div>
+                                                                          </div>
+                                                                        </div>
+                                                                        
+                                                                      </div>
+                                                                          <div class="row" style="margin-top: 30px;">
+                                                                            <div class="col-md-3 py-3 py-md-0"  id="smaller">
+                                                                              <div class="card">
+                                                                                <img src="images/Malachite Freeform Polished Stone ~105mm.jpg" alt="">
+                                                                                <div class="card-body">
+                                                                                  <h6>Malachite Freeform Polished Stone ~105mm</h6>
+                                                                                 <a href="#" class="cart">Detail</a>
+                                                                                </div>
+                                                                              </div>
+                                                                            </div>
+                                                                            <div class="col-md-3 py-3 py-md-0"  id="smaller">
+                                                                              <div class="card">
+                                                                                <img src="images/Orange Calcite Freeform Sculpture ~110mm.jpg" alt="">
+                                                                                <div class="card-body">
+                                                                                  <h6>Orange Calcite Freeform Sculpture ~110mm</h6>
+                                                                                 <a href="#" class="cart">Detail</a>
+                                                                                </div>
+                                                                              </div>
+                                                                            </div>
+                                                                            <div class="col-md-3 py-3 py-md-0"  id="smaller">
+                                                                                <div class="card">
+                                                                                  <img src="images/Quartz Freeform Sculpture ~61mm.jpg" alt="">
+                                                                                  <div class="card-body">
+                                                                                    <h6>Quartz Freeform Sculpture ~61mm
+                                                                                    </h6>
+                                                                                   <a href="#" class="cart">Detail</a>
+                                                                                  </div>
+                                                                                </div>
+                                                                              </div>
+                                                                              <div class="col-md-3 py-3 py-md-0 " id="smaller">
+                                                                                <div class="card">
+                                                                                  <img src="images/Tiger Eye Freeform Sculpture.jpg" alt="">
+                                                                                  <div class="card-body">
+                                                                                    <h6>Tiger Eye Freeform Sculpture</h6>
+                                                                                   <a href="#" class="cart">Detail</a>
+                                                                                  </div>
+                                                                                </div>
+                                                                              </div>
+                                                                              
+                                                                            
+                                                                          </div>
+                                                                          <div class="row" style="margin-top: 30px;">
+                                                                            <div class="col-md-3 py-3 py-md-0"  id="smaller">
+                                                                              <div class="card">
+                                                                                <img src="/images/Aries Birthstone Bracelet - Hematite.jpg" alt="">
+                                                                                <div class="card-body">
+                                                                                  <h6>Aries Birthstone Bracelet - Hematite
+                                                                                  </h6>
+                                                                                 <a href="#" class="cart">Detail</a>
+                                                                                </div>
+                                                                              </div>
+                                                                            </div>
+                                                                            <div class="col-md-3 py-3 py-md-0 mb-4" id="smaller">
+                                                                              <div class="card">
+                                                                                <img src="images/Aries Birthstone Crystal Charm - Hematite.jpg" alt="">
+                                                                                <div class="card-body">
+                                                                                  <h6>Aries Birthstone Crystal Charm - Hematite</h6>
+                                                                                 <a href="#" class="cart">Detail</a>
+                                                                                </div>
+                                                                              </div>
+                                                                            </div>
+                                                                            <div class="col-md-3 py-3 py-md-0" id="smaller">
+                                                                                <div class="card">
+                                                                                  <img src="images/Aries Birthstone Crystal Charm - Hematite.jpg" alt="">
+                                                                                  <div class="card-body">
+                                                                                    <h6>Aries Birthstone Crystal Charm - Hematite</h6>
+                                                                                   <a href="#" class="cart">Detail</a>
+                                                                                  </div>
+                                                                                </div>
+                                                                              </div>
+                                                                              <div class="col-md-3 py-3 py-md-0" id="smaller">
+                                                                                <div class="card">
+                                                                                  <img src="images/Cancer Birthstone Bracelet - Opalite.jpg" alt="">
+                                                                                  <div class="card-body">
+                                                                                    <h6>Cancer Birthstone Bracelet - Opalite</h6>
+                                                                                   
+                                                                                   <a href="#" class="cart">Detail</a>
+                                                                                  </div>
+                                                                                </div>
+                                                                              </div>
+                                                                          </div>
+                                                                          <div class="row"  >
+                                                                            <div class="col-md-3 py-3 py-md-0"  id="smaller">
+                                                                              <div class="card">
+                                                                                <img src="/images/Crystal Egg Specials.jpg" alt="">
+                                                                                <div class="card-body">
+                                                                                  <h6>Crystal Egg Specials</h6>
+                                                                                 <a href="#" class="cart">Detail</a>
+                                                                                </div>
+                                                                              </div>
+                                                                            </div>
+                                                                            <div class="col-md-3 py-3 py-md-0 mb-4" id="smaller">
+                                                                              <div class="card">
+                                                                                <img src="images/Standard Crystal Eggs.jpg" alt="">
+                                                                                <div class="card-body">
+                                                                                  <h6>Standard Crystal Eggs</h6>
+                                                                            
+                                                                                 <a href="#" class="cart">Detail</a>
+                                                                                </div>
+                                                                              </div>
+                                                                            </div>
+                                                                            <div class="col-md-3 py-3 py-md-0" id="smaller">
+                                                                                <div class="card">
+                                                                                  <img src="images/Small Crystal Spheres.jpg" alt="">
+                                                                                  <div class="card-body">
+                                                                                    <h6>Small Crystal Spheres</h6>
+                                                                                  
+                                                                                   <a href="#" class="cart">Detail</a>
+                                                                                  </div>
+                                                                                </div>
+                                                                              </div>
+                                                                              <div class="col-md-3 py-3 py-md-0" id="smaller">
+                                                                                <div class="card">
+                                                                                  <img src="images/Orgonites.jpg" alt="">
+                                                                                  <div class="card-body">
+                                                                                    <h6>Orgonites</h6>
+                                                                                   <a href="#" class="cart">Detail</a>
+                                                                                  </div>
+                                                                                </div>
+                                                                              </div>
+                                                                            </div>
+                                                                              <div class="row">
+                                                                                <div class="col-md-3 py-3 py-md-0"  id="smaller">
+                                                                                  <div class="card">
+                                                                                    <img src="/images/Standard Crystal Hearts.jpg" alt="">
+                                                                                    <div class="card-body">
+                                                                                      <h6>Standard Crystal Hearts</h6>
+                                                                                     <a href="#" class="cart">Detail</a>
+                                                                                    </div>
+                                                                                  </div>
+                                                                                </div>
+                                                                                <div class="col-md-3 py-3 py-md-0 mb-5" id="smaller">
+                                                                                  <div class="card">
+                                                                                    <img src="images/Amethyst Polished Point.jpg" alt="">
+                                                                                    <div class="card-body">
+                                                                                      <h6>Amethyst Polished Point</h6>
+                                                                                
+                                                                                     <a href="#" class="cart">Detail</a>
+                                                                                    </div>
+                                                                                  </div>
+                                                                                </div>
+                                                                                <div class="col-md-3 py-3 py-md-0" id="smaller">
+                                                                                    <div class="card">
+                                                                                      <img src="images/Amethyst Polished.jpg" alt="">
+                                                                                      <div class="card-body">
+                                                                                        <h6>Amethyst Polished </h6>
+                                                                                      
+                                                                                       <a href="#" class="cart">Detail</a>
+                                                                                      </div>
+                                                                                    </div>
+                                                                                  </div>
+                                                                                  <div class="col-md-3 py-3 py-md-0" id="smaller">
+                                                                                    <div class="card">
+                                                                                      <img src="images/Citrine Double Terminated Polished Point.jpg" alt="">
+                                                                                      <div class="card-body">
+                                                                                        <h6>Citrine Double Terminated Polished Point</h6>
+                                                                                       
+                                                                                       <a href="#" class="cart">Detail</a>
+                                                                                      </div>
+                                                                                    </div>
+                                                                                  </div>
+                                                                                  </div>
+                                                                                  <div class="row" style="margin-top: 30px;">
+                                                                                    <div class="col-md-3 py-3 py-md-0" id="smaller">
+                                                                                      <div class="card">
+                                                                                        <img src="/images/m1.jpg" alt="">
+                                                                                        <div class="card-body">
+                                                                                          <h6>Andalusite Healing Crystal
+                                                                                          </h6>
+                                                                                         <a href="#" class="cart">Detail</a>
+                                                                                        </div>
+                                                                                      </div>
+                                                                                    </div>
+                                                                                    <div class="col-md-3 py-3 py-md-0"  id="smaller">
+                                                                                      <div class="card">
+                                                                                        <img src="/images/m2.jpg" alt="">
+                                                                                        <div class="card-body">
+                                                                                          <h6>Andalusite Healing Crystal
+                                                                                          </h6>
+                                                                                          <a href="#" class="cart">Detail</a>
+                                                                                        </div>
+                                                                                      </div>
+                                                                                    </div>
+                                                                                    <div class="col-md-3 py-3 py-md-0"  id="smaller">
+                                                                                        <div class="card">
+                                                                                          <img src="/images/m3.jpg" alt="">
+                                                                                          <div class="card-body">
+                                                                                            <h6>Apophyllite Crystal Specimen
+                                                                                            </h6>
+                                                                                            <a href="#" class="cart">Detail</a>
+                                                                                          </div>
+                                                                                        </div>
+                                                                                      </div>
+                                                                                      <div class="col-md-3 py-3 py-md-0" id="smaller">
+                                                                                        <div class="card">
+                                                                                          <img src="images/m4.jpg" alt="">
+                                                                                          <div class="card-body">
+                                                                                            <h6>Apophyllite Crystal Cluster</h6>
+                                                                                           <a href="#" class="cart">Detail</a>
+                                                                                          </div>
+                                                                                        </div>
+                                                                                      </div>
+                                                                                  </div>
+                                                                                  <div class="row" style="margin-top: 30px;">
+                                                                                  <div class="col-md-3 py-3 py-md-0"  id="smaller">
+                                                                                    <div class="card">
+                                                                                      <img src="/images/m5.jpg" alt="">
+                                                                                      <div class="card-body">
+                                                                                        <h6>Baltic Amber Healing Crystal</h6>
+                                                                                        <a href="#" class="cart">Detail</a>
+                                                                                      </div>
+                                                                                    </div>
+                                                                                  </div>
+                                                                                  
+                                                                                <div class="col-md-3 py-3 py-md-0"  id="smaller">
+                                                                                  <div class="card">
+                                                                                    <img src="/images/m6.jpg" alt="">
+                                                                                    <div class="card-body">
+                                                                                      <h6>Amber Energy Dome</h6>
+                                                                                     <a href="#" class="cart">Detail</a>
+                                                                                    </div>
+                                                                                  </div>
+                                                                                </div>
+                                                                                <div class="col-md-3 py-3 py-md-0" id="smaller">
+                                                                                    <div class="card">
+                                                                                      <img src="images/m7.jpg" alt="">
+                                                                                      <div class="card-body">
+                                                                                        <h6>Blue Amber Healing Crystal</h6>
+                                                                                       <a href="#" class="cart">Detail</a>
+                                                                                      </div>
+                                                                                    </div>
+                                                                                  </div>
+                                                                                <div class="col-md-3 py-3 py-md-0 "  id="smaller">
+                                                                                  <div class="card">
+                                                                                    <img src="images/m8.jpg" alt="">
+                                                                                    <div class="card-body">
+                                                                                      <h6>Insect in Copal (Amber)</h6>
+                                                                                     <a href="#" class="cart">Detail</a>
+                                                                                    </div>
+                                                                                  </div>
+                                                                                </div>
+                                                                                
+                                                                              </div>
+                                                                                  <div class="row" style="margin-top: 30px;">
+                                                                                    <div class="col-md-3 py-3 py-md-0"  id="smaller">
+                                                                                      <div class="card">
+                                                                                        <img src="images/m9.jpg" alt="">
+                                                                                        <div class="card-body">
+                                                                                          <h6>Aragonite Hedgehog Healing </h6>
+                                                                                         <a href="#" class="cart">Detail</a>
+                                                                                        </div>
+                                                                                      </div>
+                                                                                    </div>
+                                                                                    <div class="col-md-3 py-3 py-md-0"  id="smaller">
+                                                                                      <div class="card">
+                                                                                        <img src="images/m10.jpg" alt="">
+                                                                                        <div class="card-body">
+                                                                                          <h6>Aragonite Mineral Specimen</h6>
+                                                                                         <a href="#" class="cart">Detail</a>
+                                                                                        </div>
+                                                                                      </div>
+                                                                                    </div>
+                                                                                    <div class="col-md-3 py-3 py-md-0"  id="smaller">
+                                                                                        <div class="card">
+                                                                                          <img src="images/m11.jpg" alt="">
+                                                                                          <div class="card-body">
+                                                                                            <h6>Flos Ferri Aragonite Healing
+                                                                                            </h6>
+                                                                                           <a href="#" class="cart">Detail</a>
+                                                                                          </div>
+                                                                                        </div>
+                                                                                      </div>
+                                                                                      <div class="col-md-3 py-3 py-md-0 " id="smaller">
+                                                                                        <div class="card">
+             <img src="images/m12.jpg" alt="">
+            <div class="card-body">
+               <h6>Mauve Aragonite Healing</h6>
+              <a href="#" class="cart">Detail</a>
+             </div>
+           </div>
+        </div>
+                                                                                      
+                                                                                    
+     </div>
+     <div class="row" style="margin-top: 30px;">
+       <div class="col-md-3 py-3 py-md-0"  id="smaller">
+        <div class="card">
+           <img src="/images/m13.jpg" alt="">
+          <div class="card-body">
+            <h6>Aquamarine Healing Crystal </h6>
+            <a href="#" class="cart">Detail</a>
+           </div>
+         </div>
+      </div>
+      <div class="col-md-3 py-3 py-md-0 mb-4" id="smaller">
+      <div class="card">
+          <img src="images/m14.jpg" alt="">
+           <div class="card-body">
+           <h6>Aquamarine Healing Crystal</h6>
+         <a href="#" class="cart">Detail</a>
+        </div>
+      </div>
+     </div>
+    <div class="col-md-3 py-3 py-md-0" id="smaller">
+         <div class="card">
+          <img src="images/m15.jpg" alt="">
+           <div class="card-body">
+            <h6>Bismuth Crystal ~75 x 60mm</h6>
+            <a href="#" class="cart">Detail</a>
+           </div>
+         </div>
+       </div>
+      <div class="col-md-3 py-3 py-md-0" id="smaller">
+         <div class="card">
+           <img src="images/m16.jpg" alt="">
+           <div class="card-body">
+             <h6>Bixbyite Healing Crystal</h6>
+                                                                                           
+            <a href="#" class="cart">Detail</a>
+           </div>
+        </div>
+       </div>
+  </div>
+                                                                                  
+<div class="row"  >
+ <div class="col-md-3 py-3 py-md-0"  id="smaller">
+   <div class="card">
+    <img src="/images/m17.jpg" alt="">
+     <div class="card-body">
+      <h6>Cinnabar in Opal Natural Slice</h6>
+     <a href="#" class="cart">Detail</a>
+    </div>
+  </div>
+ </div>
+<div class="col-md-3 py-3 py-md-0 mb-4" id="smaller">
+   <div class="card">
+    <img src="images/m18.jpg" alt="">
+    <div class="card-body">
+      <h6>Desert Rose Specimen - Large</h6>
+
+      <a href="#" class="cart">Detail</a>
+    </div>
+   </div>
+</div>
+ <div class="col-md-3 py-3 py-md-0" id="smaller">
+    <div class="card">
+       <img src="images/m19.jpg" alt="">
+      <div class="card-body">
+        <h6>Desert Rose ~10cm</h6>
+                                                                                          
+        <a href="#" class="cart">Detail</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-3 py-3 py-md-0" id="smaller">
+     <div class="card">
+       <img src="images/m20.jpg" alt="">
+      <div class="card-body">
+         <h6>Healing Mineral Starter Box </h6>
+        <a href="#" class="cart">Detail</a>
+       </div>
+     </div>
+   </div>
+</div>
+   <div class="row">
+    <div class="col-md-3 py-3 py-md-0"  id="smaller">
+       <div class="card">
+         <img src="/images/m21.jpg" alt="">
+         <div class="card-body">
+           <h6>Diaspore Healing Crystal</h6>
+         </div>
+      </div>
+    </div>
+     <div class="col-md-3 py-3 py-md-0 mb-5" id="smaller">
+       <div class="card">
+        <img src="images/m22.jpg" alt="">
+         <div class="card-body">
+           <h6>Hematite Rose Healing Crystal </h6>
+                                                                                        
+         <a href="#" class="cart">Detail</a>
+        </div>
+       </div>
+     </div>
+    <div class="col-md-3 py-3 py-md-0" id="smaller">
+         <div class="card">
+      <img src="images/m23.jpg" alt="">
+       <div class="card-body">
+        <h6>Hematite Rose Healing Crystal</h6>
+                                                                                              
+        <a href="#" class="cart">Detail</a>
+       </div>
+    </div>
+  </div>
+  <div class="col-md-3 py-3 py-md-0" id="smaller">
+    <div class="card">
+      <img src="images/m24.jpg" alt="">
+       <div class="card-body">
+         <h6>Specular Hematite Slice</h6>
+                                                                                               
+        <a href="#" class="cart">Detail</a>
+       </div>
+   </div>
+               </div>
+    </div>
+  </section>
+  <!-- body end of website -->
+<!-- Footer -->
+<footer class="text-center text-lg-start bg-light text-muted "  style="background-color:#f9efe8; ">
+	<section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom" >
+	  <div class="me-5 d-none d-lg-block">
+		<span>Get connected with us on social networks:</span>
+	  </div>
+	  <div>
+		<a href="https://www.facebook.com"> <button style="border: none; background-color:transparent;"><img src="/images/facebook-app-symbol.png" alt="" width="22vw"></button></a>
+		<a href="https://twitter.com/"> <button  style="border: none; background-color:transparent;"><img src="/images/twitter.png" alt="" width="20vw"></button></a>
+		<a href="https://www.google.com/"> <button  style="border: none; background-color:transparent;"><img src="/images/google.png" alt="" width="22vw"></button></a>
+		<a href="https://www.instagram.com/accounts/login/"> <button style="border: none; background-color:transparent;"><img src="/images/instagram.png" alt="" width="23vw"></button></a>
+		<a href="https://www.linkedin.com/"> <button  style="border: none; background-color:transparent;"><img src="/images/linkedin.png" alt="" width="25vw"></button></a>
+		<a href="https://github.com/"> <button  style="border: none; background-color:transparent;"><img src="/images/github.png" alt="" width="25vw"></button></a>
+	</div>
+	</section>
+	<section class="">
+	  <div class="container text-center text-md-start mt-5">
+		<div class="row mt-3">
+		  <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+			<h6 class="text-uppercase fw-bold mb-4">
+			  <i class="fas fa-gem me-3"></i>CRYSTALN HAVEN
+			</h6>
+			<p>
+			  <a href="index.html" class="text-reset">HOME</a>
+			</p>
+      <p>
+			  <a href="About.html" class="text-reset">About us</a>
+			</p>
+      <p>
+			  <a href="special.html" class="text-reset">Special Offers</a>
+			</p>
+      <p>
+			  <a href="arrival.html" class="text-reset">New Arrival</a>
+			</p>
+      <p>
+			  <a href="product.html" class="text-reset">Product</a>
+			</p>
+      <p>
+			  <a href="contact.html" class="text-reset">Contact Us</a>
+			</p>
+      <p>
+			  <a href="login.html" class="text-reset">Login</a>
+			</p>
+      <p>
+			  <a href="signin.html" class="text-reset">Sign-in</a>
+			</p>
+      <p>
+			  <a href="mycart.html" class="text-reset">My cart</a>
+			</p>
+     
+		  </div>
+		  <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+			<h6 class="text-uppercase fw-bold mb-4">
+        Customer Care
+			</h6>
+			<p>
+			  <a href="help.html" class="text-reset">Help Center</a>
+			</p>
+			<p>
+			  <a href="FAQ.html" class="text-reset">How to Buy</a>
+			</p>
+			<p>
+			  <a href="contact.html" class="text-reset">Contact Us</a>
+			</p>
+			<p>
+			  <a href="return.html" class="text-reset">Returns & Refunds</a>
+			</p>
+      <p>
+			  <a href="FAQ.html" class="text-reset">FaQ</a>
+			</p>
+		  </div>
+		  <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+			<h6 class="text-uppercase fw-bold mb-4">CRYSTAL HAVEN Internationa</h6>
+      <p>
+			  <a href="#" class="text-reset"><img src="images/pakistan.png" alt="" width="25vw">Pakistan</a>
+			</p>
+      <p>
+			  <a href="#" class="text-reset"><img src="images/india.png" alt="" width="25vw">India</a>
+			</p>
+      <p>
+			  <a href="#" class="text-reset"><img src="images/nepal.png" alt="" width="25vw">Nepal</a>
+			</p>
+      <p>
+			  <a href="#" class="text-reset"><img src="images/bangladesh.png" alt="" width="25vw">Bangladesh</a>
+			</p>
+      <p>
+			  <a href="#" class="text-reset"><img src="images/china.png" alt="" width="25vw">China</a>
+			</p>  
+
+		  </div>
+      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+        <h6 class="text-uppercase fw-bold mb-4">Payment Methods</h6>
+       <p>
+          <a href="https://easypaisa.com.pk/" class="text-reset"><img src="images/eastpaisa.jpg" alt="" width="70vw"></a>
+          <a href="https://www.paypal.com/pk/home" class="text-reset"><img src="images/money.png" alt="" width="70vw"></a>
+        </p>
+        </div>
+		</div>
+	  </div>
+	</section>
+  </footer>
+      <!-- Footer End --> 
+</body>
+</html>

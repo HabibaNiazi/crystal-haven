@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Arrival-Crystal haven</title>
+    <link rel="icon" href="/images/favicon.png">
+     <!-- bootstrap css file  -->
+     <link rel="stylesheet" href="/bootstrap.min.css">
+     <!-- bootstrap js file  -->
+     <script src="/bootstrap.bundle.min.js"></script>
+     	<!-- css -->
+	<link rel="stylesheet" href="file.css">
+     <!-- js -->
+     <script src="feature.js"></script>
+       <!-- j.query file  -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <style>
+      body{
+            background-color: #D7CAC1;
+        }
+      @media (max-width: 450px) {
+    
+    #pic{
+                width: 90vw;
+                margin-left: 10px;
+            }
+    }
+    
+    
+    </style>
+  </head>
+<body>
+    <!-- nav bar 1 -->
+  <nav class="navbar navbar-expand-lg " style="background-color:#f9efe8 ; " >
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html"><img src="/images/favicon.png" alt="" width="200vw" id="pic"></a> 
+      
+      <div>
+
+    </div>
+      <div>
+        <a href="login.html" style="text-decoration: none; color:black;font-weight: bold;" >Login</a> |
+        <a href="signin.html" style="text-decoration: none; color:black;font-weight: bold;">Sign in</a>
+        <a href="mycart.html" style="text-decoration: none; color:black;font-weight: bold;"><img src="/images/shopping-cart-removebg-preview.png" alt="" width="30vw">My Cart</a>
+       <button style="border: none; background-color:transparent;"><img src="/images/insta-removebg-preview.png" alt="" width="30vw"></button>
+       <button  style="border: none; background-color:transparent;"><img src="/images/facebook-removebg-preview.png" alt="" width="30vw"></button>
+       <button  style="border: none; background-color:transparent;"><img src="/images/x-removebg-preview.png" alt="" width="30vw"></button>
+    
+      </div>
+    </div>
+  </nav>
+  <!-- nav bar 1 ends -->
+    <!-- nav bar 2 start  -->
+    <nav class="navbar navbar-expand-lg text-black" style="background-color:#e9d9cf ; " >
+        <div class="container-fluid">
+          <a class="navbar-brand " href="index.html"><h1 style="background-image: url(/images/crystalbg.jpg); background-size: cover; background-position: center; background-clip: text; -webkit-background-clip: text; color: transparent;">CRYSTAL HAVEN</h1></a>
+         
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a class="nav-link active fw-bold" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active fw-bold" href="About.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active fw-bold" href="special.html" >Special Offers</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active fw-bold" href="arrival.html">New Arrival</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active fw-bold" href="product.html">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active fw-bold" href="contact.html">Contact Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active fw-bold" href="compare.html">compare</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <div class="search-container">
+              <input id="searchInput" class="form-control me-2" type="text" placeholder="Search" oninput="showSuggestions()" >
+              <ul id="suggestionList"></ul>
+                </div>
+              <button class="btn btn-outline-info" type="button" onclick="searchProduct()">Search</button>
+                </form>
+          </div>
+        </div>
+      </nav>
+	  <!-- nav bar 2 ends -->
+    <!-- new arrival -->
+<!-- Carousel wrapper -->
+<div><h1 style="text-align: center;"> ....New Arrival....</h1></div>
+<div
+  id="carouselMultiItemExample"
+  class="carousel slide carousel-dark text-center"
+  data-mdb-ride="carousel"
+>
+  <!-- Controls
+  <div class="d-flex justify-content-center mb-4">
+    <button
+      class="carousel-control-prev position-relative"
+      type="button"
+      data-mdb-target="#carouselMultiItemExample"
+      data-mdb-slide="prev"
+    >
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button
+      class="carousel-control-next position-relative"
+      type="button"
+      data-mdb-target="#carouselMultiItemExample"
+      data-mdb-slide="next"
+    >
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div> -->
+  <!-- Inner -->
+  <div class="carousel-inner py-4">
+    <!-- Single item -->
+    <div class="carousel-item active">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="card">
+              <img
+                src="images/mookaite/arriv1.jpg"
+                class="card-img-top"
+                alt="Waterfall"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Mookaite Crystal Egg</h5>
+                
+                <a href="price-mook.html" class="btn btn-primary">Price</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 d-none d-lg-block">
+            <div class="card">
+              <img
+                src="images/crazy lace Agate/crazy-lace-agate-slice-105-x-80mm_2.jpg"
+                class="card-img-top"
+                alt="Sunset Over the Sea"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Crazy Lace Agate Slice</h5>
+                <a href="price-crazy.html" class="btn btn-primary">Price</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 d-none d-lg-block">
+            <div class="card">
+              <img
+                src="images/rutil smok/rutilated-smoky-quartz-polished-point-41-x-37mm_2.jpg"
+                class="card-img-top"
+                alt="Sunset over the Sea"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Rutilated Smoky Quartz Polished </h5>
+                <a href="price-rutilate.html" class="btn btn-primary">Price</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- new row -->
+  <!-- Inner -->
+  <div class="carousel-inner py-4">
+    <!-- Single item -->
+    <div class="carousel-item active">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="card">
+              <img
+                src="images/cassiterat/cassiterite-healing-crystal-viloco-26mm_26.jpg"
+                class="card-img-top"
+                alt="Waterfall"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Cassiterite Healing Crystal (Viloco)</h5>
+                
+                <a href="price-cassitrete.html" class="btn btn-primary">Price</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 d-none d-lg-block">
+            <div class="card">
+              <img
+                src="images/black/black-tourmaline-healing-crystal-37mm_20.jpg"
+                class="card-img-top"
+                alt="Sunset Over the Sea"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Black Tourmaline Healing Crystal</h5>
+                <a href="price-black.html" class="btn btn-primary">Price</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 d-none d-lg-block">
+            <div class="card">
+              <img
+                src="images/tengrin/1.jpg"
+                class="card-img-top"
+                alt="Sunset over the Sea"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Tangerine Quartz Cluster 
+                  </h5>
+                <a href="Tangerine.html" class="btn btn-primary">Price</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>   
+         <!-- Inner -->
+  <div class="carousel-inner py-4">
+    <!-- Single item -->
+    <div class="carousel-item active">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="card">
+              <img
+                src="images/Fish/fossil-fish-plate-knightia-26x22cm_3.jpg"
+                class="card-img-top"
+                alt="Waterfall"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Fossil Fish Plate - Knightia</h5>
+                
+                <a href="price-fish.html" class="btn btn-primary">Price</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 d-none d-lg-block">
+            <div class="card">
+              <img
+                src="images/willemite/1.jpg"
+                class="card-img-top"
+                alt="Sunset Over the Sea"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Willemite & Zincite Healing </h5>
+                <a href="price-willemite.html" class="btn btn-primary">Price</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 d-none d-lg-block">
+            <div class="card">
+              <img
+                src="images/tiger eye/1.jpg"
+                class="card-img-top"
+                alt="Sunset over the Sea"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Tiger Eye Crystal Skull</h5>
+                <a href="price-Tiger.html" class="btn btn-primary">Price</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- new row --> 
+   <!-- Inner -->
+   <div class="carousel-inner py-4">
+    <!-- Single item -->
+    <div class="carousel-item active">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="card">
+              <img
+                src="images/rainbow/1.jpg"
+                class="card-img-top"
+                alt="Waterfall"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Rainbow Aura Quartz Healing</h5>
+                
+                <a href="price rainbow.html" class="btn btn-primary">Price</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 d-none d-lg-block">
+            <div class="card">
+              <img
+                src="images/vesuvinate/1.jpg"
+                class="card-img-top"
+                alt="Sunset Over the Sea"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Vesuvianite Tumblestone</h5>
+                <a href="vesuvianite.html" class="btn btn-primary">Price</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 d-none d-lg-block">
+            <div class="card">
+              <img
+                src="images/pyrate/1.jpg"
+                class="card-img-top"
+                alt="Sunset over the Sea"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Pyrite Polished Point</h5>
+                <a href="price-pyrite.html" class="btn btn-primary">Price</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- new row --> 
+   <!-- Inner -->
+   <div class="carousel-inner py-4">
+    <!-- Single item -->
+    <div class="carousel-item active">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="card">
+              <img
+                src="images//Nzuri/1.jpg"
+                class="card-img-top"
+                alt="Waterfall"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Nzuri Moyo Tumblestone</h5>
+                
+                <a href="price-Nzuri.html" class="btn btn-primary">Price</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 d-none d-lg-block">
+            <div class="card">
+              <img
+                src="images/black kyanite/1.jpg"
+                class="card-img-top"
+                alt="Sunset Over the Sea"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Black Kyanite Healing Crystal </h5>
+                <a href="price-kyanite.html" class="btn btn-primary">Price</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 d-none d-lg-block">
+            <div class="card">
+              <img
+                src="images/sugilite/1.jpg"
+                class="card-img-top"
+                alt="Sunset over the Sea"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Sugilite Mini Tumblestone Chips</h5>
+                <a href="price-Sugilite.html" class="btn btn-primary">Price</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- new row --> 
+ 
+ 
+<!-- new arival ends -->
+<!-- Footer -->
+<footer class="text-center text-lg-start bg-light text-muted "  style="background-color:#f9efe8; ">
+	<section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom" >
+	  <div class="me-5 d-none d-lg-block">
+		<span>Get connected with us on social networks:</span>
+	  </div>
+	  <div>
+		<a href="https://www.facebook.com"> <button style="border: none; background-color:transparent;"><img src="/images/facebook-app-symbol.png" alt="" width="22vw"></button></a>
+		<a href="https://twitter.com/"> <button  style="border: none; background-color:transparent;"><img src="/images/twitter.png" alt="" width="20vw"></button></a>
+		<a href="https://www.google.com/"> <button  style="border: none; background-color:transparent;"><img src="/images/google.png" alt="" width="22vw"></button></a>
+		<a href="https://www.instagram.com/accounts/login/"> <button style="border: none; background-color:transparent;"><img src="/images/instagram.png" alt="" width="23vw"></button></a>
+		<a href="https://www.linkedin.com/"> <button  style="border: none; background-color:transparent;"><img src="/images/linkedin.png" alt="" width="25vw"></button></a>
+		<a href="https://github.com/"> <button  style="border: none; background-color:transparent;"><img src="/images/github.png" alt="" width="25vw"></button></a>
+	</div>
+	</section>
+	<section class="">
+	  <div class="container text-center text-md-start mt-5">
+		<div class="row mt-3">
+		  <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+			<h6 class="text-uppercase fw-bold mb-4">
+			  <i class="fas fa-gem me-3"></i>CRYSTALN HAVEN
+			</h6>
+			<p>
+			  <a href="index.html" class="text-reset">HOME</a>
+			</p>
+      <p>
+			  <a href="About.html" class="text-reset">About us</a>
+			</p>
+      <p>
+			  <a href="special.html" class="text-reset">Special Offers</a>
+			</p>
+      <p>
+			  <a href="arrival.html" class="text-reset">New Arrival</a>
+			</p>
+      <p>
+			  <a href="product.html" class="text-reset">Product</a>
+			</p>
+      <p>
+			  <a href="contact.html" class="text-reset">Contact Us</a>
+			</p>
+      <p>
+			  <a href="login.html" class="text-reset">Login</a>
+			</p>
+      <p>
+			  <a href="signin.html" class="text-reset">Sign-in</a>
+			</p>
+      <p>
+			  <a href="mycart.html" class="text-reset">My cart</a>
+			</p>
+     
+		  </div>
+		  <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+			<h6 class="text-uppercase fw-bold mb-4">
+        Customer Care
+			</h6>
+			<p>
+			  <a href="help.html" class="text-reset">Help Center</a>
+			</p>
+			<p>
+			  <a href="FAQ.html" class="text-reset">How to Buy</a>
+			</p>
+			<p>
+			  <a href="contact.html" class="text-reset">Contact Us</a>
+			</p>
+			<p>
+			  <a href="return.html" class="text-reset">Returns & Refunds</a>
+			</p>
+      <p>
+			  <a href="FAQ.html" class="text-reset">FaQ</a>
+			</p>
+		  </div>
+		  <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+			<h6 class="text-uppercase fw-bold mb-4">CRYSTAL HAVEN Internationa</h6>
+      <p>
+			  <a href="#" class="text-reset"><img src="images/pakistan.png" alt="" width="25vw">Pakistan</a>
+			</p>
+      <p>
+			  <a href="#" class="text-reset"><img src="images/india.png" alt="" width="25vw">India</a>
+			</p>
+      <p>
+			  <a href="#" class="text-reset"><img src="images/nepal.png" alt="" width="25vw">Nepal</a>
+			</p>
+      <p>
+			  <a href="#" class="text-reset"><img src="images/bangladesh.png" alt="" width="25vw">Bangladesh</a>
+			</p>
+      <p>
+			  <a href="#" class="text-reset"><img src="images/china.png" alt="" width="25vw">China</a>
+			</p>  
+
+		  </div>
+      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+        <h6 class="text-uppercase fw-bold mb-4">Payment Methods</h6>
+       <p>
+          <a href="https://easypaisa.com.pk/" class="text-reset"><img src="images/eastpaisa.jpg" alt="" width="70vw"></a>
+          <a href="https://www.paypal.com/pk/home" class="text-reset"><img src="images/money.png" alt="" width="70vw"></a>
+        </p>
+        </div>
+		</div>
+	  </div>
+	</section>
+  </footer>
+      <!-- Footer End --> 
+</body>
+</html>

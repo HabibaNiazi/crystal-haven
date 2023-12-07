@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crystal haven</title>
+	<link rel="icon" href="/images/favicon.png">
+    <!-- bootstrap css file  -->
+    <link rel="stylesheet" href="/bootstrap.min.css">
+    <!-- bootstrap js file  -->
+    <script src="/bootstrap.bundle.min.js"></script>
+    <!-- css file  -->
+    <link rel="stylesheet" href="style.css">
+	<!-- css -->
+	<link rel="stylesheet" href="file.css">
+	<!-- js file -->
+	<script src="feature.js"></script>
+  <!-- j.query file  -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+</head>
+<body>
+	<!-- nav bar 1 -->
+  <nav class="navbar navbar-expand-lg " style="background-color:#f9efe8 ; " >
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html"><img src="/images/favicon.png" alt="" width="200vw" id="pic"></a> 
+      <div>
+
+    </div>
+      <div >
+        <a href="login.html" style="text-decoration: none; color:black;font-weight: bold;" >Login</a> |
+		<a href="signin.html" style="text-decoration: none; color:black;font-weight: bold;">Sign in</a>
+        <a href="mycart.html" style="text-decoration: none; color:black;font-weight: bold;"><img src="/images/shopping-cart-removebg-preview.png" alt="" width="30vw">My Cart</a>
+      <a href="https://www.instagram.com/accounts/login/"> <button style="border: none; background-color:transparent;"><img src="/images/insta-removebg-preview.png" alt="" width="30vw"></button></a>
+      <a href="https://www.facebook.com"> <button  style="border: none; background-color:transparent;"><img src="/images/facebook-removebg-preview.png" alt="" width="30vw"></button></a>
+      <a href="https://twitter.com/"> <button  style="border: none; background-color:transparent;"><img src="/images/x-removebg-preview.png" alt="" width="30vw"></button></a>
+    
+      </div>
+    </div>
+  </nav>
+  <!-- nav bar 1 ends -->
+    <!-- nav bar 2 start  -->
+    <nav class="navbar navbar-expand-lg text-black" style="background-color:#e9d9cf ; " >
+        <div class="container-fluid">
+          <a class="navbar-brand " href="index.html"><h1 style="background-image: url(/images/crystalbg.jpg); background-size: cover; background-position: center; background-clip: text; -webkit-background-clip: text; color: transparent;">CRYSTAL HAVEN</h1></a>
+         
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a class="nav-link active fw-bold" href="index.html" >Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active fw-bold" href="About.html" >About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active fw-bold" href="special.html">Special Offers</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active fw-bold" href="arrival.html" >New Arrival</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active fw-bold" href="product.html">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active fw-bold" href="contact.html">Contact Us</a>
+              </li>
+			  <li class="nav-item">
+                <a class="nav-link active fw-bold" href="compare.html">compare</a>
+              </li>
+            </ul>
+			<form class="d-flex">
+				<div class="search-container">
+				<input id="searchInput" class="form-control me-2" type="text" placeholder="Search" oninput="showSuggestions()" >
+				<ul id="suggestionList"></ul>
+			    </div>
+				<button class="btn btn-outline-info" type="button" onclick="searchProduct()">Search</button>
+			    </form>
+          </div>
+        </div>
+      </nav>
+	  <!-- nav bar 2 ends -->
+   <!-- home start of website  -->
+   <div id="home">
+    <div style="background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.2)), url(/images/imgbg.jpg); background-repeat: no-repeat;  background-size: cover; width: 100%;
+    height: 90vh;">
+    <div class="container-fluid text-center" style="padding-top: 200px;">
+        
+         <h1 style="color: #ffffff;"><span class="changecontent"></span></h1>
+         <p style="color: rgb(255, 253, 253); font-weight: bold; font-size: larger;">Healing Crystals for Balance and Harmony</p>
+    </div>
+</div>
+  </div> 
+  
+  <!-- home end of website  -->
+<!-- cards of products -->
+  <main >
+    <h1 class="text-center mt-5">Trending</h1>
+		<section id="section" >
+			<div class="product">
+				<picture>
+					<img src="images/img 1.jpg" alt="">
+				</picture>
+				<div class="detail">
+					<p>
+						<b>Labradorite Polished Stone</b><br>
+						<small>New arrival</small>
+					</p>
+					
+				</div>
+				<div class="button">
+					<p class="star">
+						<strong>&star;</strong>
+						<strong>&star;</strong>
+						<strong>&star;</strong>
+						<strong>&star;</strong>
+						<strong>&star;</strong>
+					</p>
+					<a href="price-labradorite.html">Detail</a>
+				</div>
+			</div>
+			<div class="product">
+				<picture>
+					<img src="images/img2.jpg" alt="">
+				</picture>
+				<div class="detail">
+					<p>
+						<b>Rhodochrosite Thumbstone</b><br>
+						<small>New arrival</small>
+					</p>
+					
+				</div>
+				<div class="button">
+					<p class="star">
+						<strong>&star;</strong>
+						<strong>&star;</strong>
+						<strong>&star;</strong>
+						<strong>&star;</strong>
+						<strong>&star;</strong>
+					</p>
+					<a href="Rhodochrosite.html">Detail</a>
+				</div>
+			</div>
+			<div class="product">
+				<picture>
+					<img src="images/img3.jpg" alt="">
+				</picture>
+				<div class="detail">
+					<p>
+						<b>Lapis Lazuli Thumb Stone</b><br>
+						<small>New arrival</small>
+					</p>
+					
+				</div>
+				<div class="button">
+					<p class="star">
+						<strong>&star;</strong>
+						<strong>&star;</strong>
+						<strong>&star;</strong>
+						<strong>&star;</strong>
+						<strong>&star;</strong>
+					</p>
+					<a href="Lapis.html">Detail</a>
+				</div>
+			</div>
+			<div class="product">
+				<picture>
+					<img src="images/img4.jpg" alt="">
+				</picture>
+				<div class="detail">
+					<p>
+						<b>Malachite Crystal Dolphin</b><br>
+						<small>New arrival</small>
+					</p>
+					
+				</div>
+				<div class="button">
+					<p class="star">
+						<strong>&star;</strong>
+						<strong>&star;</strong>
+						<strong>&star;</strong>
+						<strong>&star;</strong>
+						<strong>&star;</strong>
+					</p>
+					<a href="Malachite-Crystal-Dolphin.html">Detail</a>
+				</div>
+			</div>
+			<div class="product">
+				<picture>
+					<img src="images/img9.jpg" alt="">
+				</picture>
+				<div class="detail">
+					<p>
+						<b>Sugilite Mini Tumblestone Chips</b><br>
+						<small>New arrival</small>
+					</p>
+					
+				</div>
+				<div class="button">
+					<p class="star">
+						<strong>&star;</strong>
+						<strong>&star;</strong>
+						<strong>&star;</strong>
+						<strong>&star;</strong>
+						<strong>&star;</strong>
+					</p>
+					<a href="price-Sugilite.html">Detail</a>
+				</div>
+			</div>
+			
+			<div class="product">
+				<picture>
+					<img src="images/img6.jpg" alt="">
+				</picture>
+				<div class="detail">
+					<p>
+						<b>
+              Mini Tsavorite Healing Crystal</b><br>
+						<small>New arrival</small>
+					</p>
+				
+				</div>
+				<div class="button">
+					<p class="star">
+						<strong>&star;</strong>
+						<strong>&star;</strong>
+						<strong>&star;</strong>
+						<strong>&star;</strong>
+						<strong>&star;</strong>
+					</p>
+					<a href="#">Detail</a>
+				</div>
+			</div>
+			<div class="product">
+				<picture>
+					<img src="images/img7.jpg" alt="">
+				</picture>
+				<div class="detail">
+					<p>
+						<b> Rainbow Fluorite Tealight</b><br>
+						<small>New arrival</small>
+					</p>
+				
+				</div>
+				<div class="button">
+					<p class="star">
+						<strong>&star;</strong>
+						<strong>&star;</strong>
+						<strong>&star;</strong>
+						<strong>&star;</strong>
+						<strong>&star;</strong>
+					</p>
+					<a href="#">Detail</a>
+				</div>
+			</div>
+			<div class="product">
+				<picture>
+					<img src="images/img8.jpg" alt="">
+				</picture>
+				<div class="detail">
+					<p>
+						<b>Trinity Stone Tumblestone</b><br>
+						<small>New arrival</small>
+					</p>
+				
+				</div>
+				<div class="button">
+					<p class="star">
+						<strong>&star;</strong>
+						<strong>&star;</strong>
+						<strong>&star;</strong>
+						<strong>&star;</strong>
+						<strong>&star;</strong>
+					</p>
+					<a href="#">Detail</a>
+				</div>
+			</div>
+			<div class="product">
+				<picture>
+					<img src="images/img5.jpg" alt="">
+				</picture>
+				<div class="detail">
+					<p>
+						<b>Snakeskin Jasper Pyramid</b><br>
+						<small>New arrival</small>
+					</p>
+				
+				</div>
+				<div class="button">
+					<p class="star">
+						<strong>&star;</strong>
+						<strong>&star;</strong>
+						<strong>&star;</strong>
+						<strong>&star;</strong>
+						<strong>&star;</strong>
+					</p>
+					<a href="Snakeskin-Jasper-Pyramid.html">Detail</a>
+				</div>
+			</div>
+			<div class="product">
+				<picture>
+					<img src="images/img10.jpg" alt="">
+				</picture>
+				<div class="detail">
+					<p>
+						<b>
+              Purpurite Tumblestone</b><br>
+						<small>New arrival</small>
+					</p>
+					
+				</div>
+				<div class="button">
+					<p class="star">
+						<strong>&star;</strong>
+						<strong>&star;</strong>
+						<strong>&star;</strong>
+						<strong>&star;</strong>
+						<strong>&star;</strong>
+					</p>
+					<a href="#">Detail</a>
+				</div>
+			</div>
+			<div class="product">
+				<picture>
+					<img src="images/img11.jpg" alt="">
+				</picture>
+				<div class="detail">
+					<p>
+						<b>
+              Stilbite Crystal Cluster</b><br>
+						<small>New arrival</small>
+					</p>
+				
+				</div>
+				<div class="button">
+					<p class="star">
+						<strong>&star;</strong>
+						<strong>&star;</strong>
+						<strong>&star;</strong>
+						<strong>&star;</strong>
+						<strong>&star;</strong>
+					</p>
+					<a href="#">Detail</a>
+				</div>
+			</div>
+			<div class="product">
+				<picture>
+					<img src="images/img12.jpg" alt="">
+				</picture>
+				<div class="detail">
+					<p>
+						<b>£14.99
+              Sunstone Healing Crystal</b><br>
+						<small>New arrival</small>
+					</p>
+					
+				</div>
+				<div class="button">
+					<p class="star">
+						<strong>&star;</strong>
+						<strong>&star;</strong>
+						<strong>&star;</strong>
+						<strong>&star;</strong>
+						<strong>&star;</strong>
+					</p>
+					<a href="#">Detail</a>
+				</div>
+			</div>
+      
+		</section>
+    
+	</main>
+	<!-- end cards of trending products -->
+  <!-- categories start-->
+      <div style="background-color: #D7CAC1; margin-top: 10%; "  >
+        
+      <section class="Categories" >
+        <div class="container">
+         <a href="" style="text-decoration: none; color: black;" class="text-center"><h1>Categories</h1></a>
+          <div class="row" style="margin-top: 30px;" >
+            <div class="col-md-4 py-3 py-md-0" >
+              <div class="card" style="border-radius: 500px;">
+                <div class="card-body text-center">
+                    <img src="/images/CR1.jpg" alt="" width="20%"  >
+                 <a href="Agatecrystals.html"  style="text-decoration: none; color: black;"><h3>Agate Crystals</h3></a> 
+                 
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+              <div class="card" style="border-radius: 500px;">
+                <div class="card-body text-center" >
+                    <img src="images/cr2.jpg" alt="" width="20%">
+                  <a href="amethystcrystals.html"  style="text-decoration: none; color: black;"><h3>Amethyst Crystals</h3></a>
+                
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+              <div class="card" style="border-radius: 500px;">
+                <div class="card-body text-center">
+                    <img src="images/cr3.jpg" alt="" width="20%">
+               <a href="thumbstones.html"  style="text-decoration: none; color: black;">  <h3>Thumb Stones</h3></a> 
+            
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row" style="margin-top: 30px;">
+            <div class="col-md-4 py-3 py-md-0">
+              <div class="card" style="border-radius: 500px;">
+                <div class="card-body text-center">
+                    <img src="images/cry4.jpg" alt="" width="20%">
+                 <a href="crysralballs.html"  style="text-decoration: none; color: black;"><h3>Crystal Balls</h3></a> 
+                
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+              <div class="card" style="border-radius: 500px;">
+                <div class="card-body text-center">
+                    <img src="/images/cry5.jpg" alt="" width="20%">
+                  <a href="crystalBeads.html"  style="text-decoration: none; color: black;"><h3>Crystal Beads</h3></a>
+                
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 py-3 py-md-0" >
+              <div class="card" style="border-radius: 500px;">
+                <div class="card-body text-center">
+                    <img src="images/cr6.jpg" alt="" width="20%">
+                 <a href="crystalhealing.html"  style="text-decoration: none; color: black;"><h3>Crystal Healing</h3></a>
+                 
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 py-3 py-md-0" style="margin-top: 30px;">
+              <div class="card"  style="border-radius: 500px;">
+                <div class="card-body text-center">
+                    <img src="images/cr7.jpg" alt="" width="20%">
+                 <a href="crystaljewellery.html"  style="text-decoration: none; color: black;"><h3>Crystal Jewellery</h3></a> 
+                 
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 py-3 py-md-0" style="margin-top: 30px;">
+              <div class="card" style="border-radius: 500px;">
+                <div class="card-body text-center">
+                    <img src="images/cry8.jpg" alt="" width="20%">
+                <a href="crystal&minerals.html"  style="text-decoration: none; color: black;"> <h3>Crystals & Minerals</h3></a> 
+                 
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 py-3 py-md-0" style="margin-top: 30px;">
+              <div class="card" style="border-radius: 500px;">
+                <div class="card-body text-center">
+                    <img src="images/cry9.jpg" alt="" width="20%">
+                 <a href="gemstones.html"  style="text-decoration: none; color: black;"><h3>Gemstones</h3></a> 
+                 
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 py-3 py-md-0" style="margin-top: 30px;">
+              <div class="card" style="border-radius: 500px;">
+                <div class="card-body text-center">
+                    <img src="images/cry10.jpg" alt="" width="20%">
+                 <a href="quartzcrystals.html"  style="text-decoration: none; color: black;"> <h3>Quartz Crystals </h3></a>
+                 
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 py-3 py-md-0" style="margin-top: 30px;">
+              <div class="card" style="border-radius: 500px;">
+                <div class="card-body text-center">
+                    <img src="images/cry11.jpg" alt="" width="20%">
+                 <a href="crystalcarvings.html"  style="text-decoration: none; color: black;"><h3>Crystal Carvings</h3></a> 
+                 
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 py-3 py-md-0" style="margin-top: 30px;">
+              <div class="card" style="border-radius: 700px;">
+                <div class="card-body text-center">
+                    <img src="images/cry12.jpg" alt="" width="20%">
+                 <a href="crystalgift&home.html" style="text-decoration: none; color: black;"><h3>Crystal Gifts & Home</h3></a> 
+                 
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+    </section>
+      </div>
+	  <!-- catagories end -->
+	  <!-- only for you products start -->
+	  <section   style="margin-top: 10%;" id="small">
+	
+		<div class="container" id="mains">
+		  <a href="" style="text-decoration: none; color: black;" class="text-center"> <h1>Just for You</h1></a> 
+		
+		<hr>
+		  <div class="main-txt text-center">
+		 </div>
+		  <div class="row" style="margin-top: 30px;">
+			<div class="col-md-3 py-3 py-md-0" id="smaller">
+			  <div class="card">
+				<img src="/images/pro6.jpg" alt="">
+				<div class="card-body">
+				  <h6>Tiger Eye Crystal Skull</h6>
+				 <a href="Tiger-Eye-Crystal-Skull.html" class="cart">Detail</a>
+				</div>
+			  </div>
+			</div>
+			<div class="col-md-3 py-3 py-md-0"  id="smaller">
+			  <div class="card">
+				<img src="/images/pro5.jpg" alt="">
+				<div class="card-body">
+				  <h6>Pyrite Polished Point</h6>
+				  <a href="Pyrite-Polished-Point.html" class="cart">Detail</a>
+				</div>
+			  </div>
+			</div>
+			<div class="col-md-3 py-3 py-md-0"  id="smaller">
+				<div class="card">
+				  <img src="/images/cryp1.jpg" alt="">
+				  <div class="card-body">
+					<h6>Red Goldstone Beads</h6>
+					<a href="Red-Goldstone-Beads.html" class="cart">Detail</a>
+				  </div>
+				</div>
+			  </div>
+			  <div class="col-md-3 py-3 py-md-0" id="smaller">
+				<div class="card">
+				  <img src="images/c2.jpg" alt="">
+				  <div class="card-body">
+					<h6>Gold Wrap Chain with 7 Raw </h6>
+				   <a href="Gold-Wrap-Chain-7.html" class="cart">Detail</a>
+				  </div>
+				</div>
+			  </div>
+		  </div>
+		  <div class="row" style="margin-top: 30px;">
+		  <div class="col-md-3 py-3 py-md-0"  id="smaller">
+			<div class="card">
+			  <img src="/images/cryp3.jpg" alt="">
+			  <div class="card-body">
+				<h6>Citrine Crystal Beads </h6>
+				<a href="Citrine-Crystal-Beads.html" class="cart">Detail</a>
+			  </div>
+			</div>
+		  </div>
+		  
+		<div class="col-md-3 py-3 py-md-0"  id="smaller">
+		  <div class="card">
+			<img src="/images/pro4.jpg" alt="">
+			<div class="card-body">
+			  <h6>Rainbow Aura Quartz</h6>
+			 <a href="" class="cart">Detail</a>
+			</div>
+		  </div>
+		</div>
+		<div class="col-md-3 py-3 py-md-0" id="smaller">
+			<div class="card">
+			  <img src="images/cryp6.jpg" alt="">
+			  <div class="card-body">
+				<h6>Citrine Polished Point Pendant</h6>
+			   <a href="#" class="cart">Detail</a>
+			  </div>
+			</div>
+		  </div>
+		<div class="col-md-3 py-3 py-md-0 "  id="smaller">
+		  <div class="card">
+			<img src="images/pro1.jpg" alt="">
+			<div class="card-body">
+			  <h6>Malachite Oval 925 Silver</h6>
+			 <a href="#" class="cart">Detail</a>
+			</div>
+		  </div>
+		</div>
+		
+	  </div>
+		  <div class="row" style="margin-top: 30px;">
+			<div class="col-md-3 py-3 py-md-0"  id="smaller">
+			  <div class="card">
+				<img src="/images/pro3.jpg" alt="">
+				<div class="card-body">
+				  <h6>Petalite Healing Crystal </h6>
+				 <a href="#" class="cart">Detail</a>
+				</div>
+			  </div>
+			</div>
+			<div class="col-md-3 py-3 py-md-0"  id="smaller">
+			  <div class="card">
+				<img src="images/pro2.jpg" alt="">
+				<div class="card-body">
+				  <h6>Jet Tumblestone ~60mm</h6>
+				 <a href="#" class="cart">Detail</a>
+				</div>
+			  </div>
+			</div>
+			<div class="col-md-3 py-3 py-md-0"  id="smaller">
+				<div class="card">
+				  <img src="images/cryp4.jpg" alt="">
+				  <div class="card-body">
+					<h6>Amethyst Tea Light Holders</h6>
+				   <a href="#" class="cart">Detail</a>
+				  </div>
+				</div>
+			  </div>
+			  <div class="col-md-3 py-3 py-md-0 " id="smaller">
+				<div class="card">
+				  <img src="images/c1.jpg" alt="">
+				  <div class="card-body">
+					<h6>Gemstone Bead Bracelets</h6>
+				   <a href="#" class="cart">Detail</a>
+				  </div>
+				</div>
+			  </div>
+			  
+			
+		  </div>
+		  <div class="row" style="margin-top: 30px;">
+			<div class="col-md-3 py-3 py-md-0"  id="smaller">
+			  <div class="card">
+				<img src="/images/c6.jpg" alt="">
+				<div class="card-body">
+				  <h6>Amethyst Drilled Tumble Stone</h6>
+				 <a href="#" class="cart">Detail</a>
+				</div>
+			  </div>
+			</div>
+			<div class="col-md-3 py-3 py-md-0 mb-5" id="smaller">
+			  <div class="card">
+				<img src="images/c5.jpg" alt="">
+				<div class="card-body">
+				  <h6>Opal & Silver Ring ~ 7 US Ring</h6>
+			
+				 <a href="#" class="cart">Detail</a>
+				</div>
+			  </div>
+			</div>
+			<div class="col-md-3 py-3 py-md-0" id="smaller">
+				<div class="card">
+				  <img src="images/c4.jpg" alt="">
+				  <div class="card-body">
+					<h6>Amethyst Agogo Donut</h6>
+				  
+				   <a href="#" class="cart">Detail</a>
+				  </div>
+				</div>
+			  </div>
+			  <div class="col-md-3 py-3 py-md-0" id="smaller">
+				<div class="card">
+				  <img src="images/c3.jpg" alt="">
+				  <div class="card-body">
+					<h6>Dragon's Blood Jasper Pendant</h6>
+				   
+				   <a href="#" class="cart">Detail</a>
+				  </div>
+				</div>
+			  </div>
+			 
+		  </div>
+		</div>
+	  </section>
+	  <!-- only for you cards end -->
+ <!-- Footer -->
+ <footer class="text-center text-lg-start text-muted " style="background-color:#f9efe8; ">
+	<section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom" >
+	  <div class="me-5 d-none d-lg-block">
+		<span>Get connected with us on social networks:</span>
+	  </div>
+	  <div>
+		<a href="https://www.facebook.com"> <button style="border: none; background-color:transparent;"><img src="/images/facebook-app-symbol.png" alt="" width="22vw"></button></a>
+		<a href="https://twitter.com/"> <button  style="border: none; background-color:transparent;"><img src="/images/twitter.png" alt="" width="20vw"></button></a>
+		<a href="https://www.google.com/"> <button  style="border: none; background-color:transparent;"><img src="/images/google.png" alt="" width="22vw"></button></a>
+		<a href="https://www.instagram.com/accounts/login/"> <button style="border: none; background-color:transparent;"><img src="/images/instagram.png" alt="" width="23vw"></button></a>
+		<a href="https://www.linkedin.com/"> <button  style="border: none; background-color:transparent;"><img src="/images/linkedin.png" alt="" width="25vw"></button></a>
+		<a href="https://github.com/"> <button  style="border: none; background-color:transparent;"><img src="/images/github.png" alt="" width="25vw"></button></a>
+	</div>
+	</section>
+	<section class="">
+	  <div class="container text-center text-md-start mt-5">
+		<div class="row mt-3">
+		  <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+			<h6 class="text-uppercase fw-bold mb-4">
+			  <i class="fas fa-gem me-3"></i>CRYSTALN HAVEN
+			</h6>
+			<p>
+			  <a href="index.html" class="text-reset">HOME</a>
+			</p>
+      <p>
+			  <a href="About.html" class="text-reset">About us</a>
+			</p>
+      <p>
+			  <a href="special.html" class="text-reset">Special Offers</a>
+			</p>
+      <p>
+			  <a href="arrival.html" class="text-reset">New Arrival</a>
+			</p>
+      <p>
+			  <a href="product.html" class="text-reset">Product</a>
+			</p>
+      <p>
+			  <a href="contact.html" class="text-reset">Contact Us</a>
+			</p>
+      <p>
+			  <a href="login.html" class="text-reset">Login</a>
+			</p>
+      <p>
+			  <a href="signin.html" class="text-reset">Sign-in</a>
+			</p>
+      <p>
+			  <a href="mycart.html" class="text-reset">My cart</a>
+			</p>
+     
+		  </div>
+		  <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+			<h6 class="text-uppercase fw-bold mb-4">
+        Customer Care
+			</h6>
+			<p>
+			  <a href="help.html" class="text-reset">Help Center</a>
+			</p>
+			<p>
+			  <a href="FAQ.html" class="text-reset">How to Buy</a>
+			</p>
+			<p>
+			  <a href="contact.html" class="text-reset">Contact Us</a>
+			</p>
+			<p>
+			  <a href="return.html" class="text-reset">Returns & Refunds</a>
+			</p>
+      <p>
+			  <a href="FAQ.html" class="text-reset">FaQ</a>
+			</p>
+		  </div>
+		  <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+			<h6 class="text-uppercase fw-bold mb-4">CRYSTAL HAVEN Internationa</h6>
+      <p>
+			  <a href="#" class="text-reset"><img src="images/pakistan.png" alt="" width="25vw">Pakistan</a>
+			</p>
+      <p>
+			  <a href="#" class="text-reset"><img src="images/india.png" alt="" width="25vw">India</a>
+			</p>
+      <p>
+			  <a href="#" class="text-reset"><img src="images/nepal.png" alt="" width="25vw">Nepal</a>
+			</p>
+      <p>
+			  <a href="#" class="text-reset"><img src="images/bangladesh.png" alt="" width="25vw">Bangladesh</a>
+			</p>
+      <p>
+			  <a href="#" class="text-reset"><img src="images/china.png" alt="" width="25vw">China</a>
+			</p>  
+
+		  </div>
+      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+        <h6 class="text-uppercase fw-bold mb-4">Payment Methods</h6>
+       <p>
+          <a href="https://easypaisa.com.pk/" class="text-reset"><img src="images/eastpaisa.jpg" alt="" width="70vw"></a>
+          <a href="https://www.paypal.com/pk/home" class="text-reset"><img src="images/money.png" alt="" width="70vw"></a>
+        </p>
+        </div>
+		</div>
+	  </div>
+	</section>
+  </footer>
+      <!-- Footer End --> 
+      
+</body>
+</html>
