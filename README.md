@@ -1,4 +1,4 @@
-![crystal-haven about-us](https://github.com/HabibaNiazi/crystal-haven/assets/146112297/40780e4e-873e-42c2-a712-2f69490077cb)# crystal-haven
+# crystal-haven
 ![crystal-haven header](https://github.com/HabibaNiazi/crystal-haven/assets/146112297/2a90ef1a-97ac-4406-bddf-ca7de494a5a8)
 nav bar & hero banner 
 ![crystal-haven index body](https://github.com/HabibaNiazi/crystal-haven/assets/146112297/4d8a414b-b006-45cc-a542-944439356b27)
